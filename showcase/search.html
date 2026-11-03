@@ -1,0 +1,660 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="robots" content="noindex">
+    <title>Search · Magnolia RV Resort</title>
+    <meta name="description" content="Guest guide for Magnolia RV Resort: Wi-Fi, park rules, nearby spots, local sponsors and contacts.">
+
+    
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;0,7..72,700;1,7..72,400&family=Nunito+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=block">
+
+
+
+
+<link rel="stylesheet" href="assets/css/tailwind.css">
+
+
+
+
+</head>
+<body class="flex min-h-screen flex-col bg-surface font-body text-on-surface antialiased">
+    <header class="fixed top-0 z-50 w-full border-b border-outline-variant/30 bg-surface/90 pt-[env(safe-area-inset-top)] backdrop-blur-xl">
+        <div class="mx-auto flex h-16 max-w-3xl items-center justify-between gap-3 px-4">
+            <a href="index.html" class="flex min-w-0 items-center gap-3">
+                
+                    <img src="assets/pages/images/guide/magnolia/logo.jpg" alt="Magnolia RV Resort logo" width="40" height="40"
+                         class="h-10 w-10 shrink-0 rounded-full border border-outline-variant/40 bg-surface-container object-cover p-0.5">
+                
+                <span class="flex min-w-0 flex-col">
+                    <span class="truncate font-headline text-lg leading-tight font-semibold tracking-tight text-primary">Magnolia RV Resort</span>
+                    <span class="truncate text-[11px] font-bold tracking-wider text-tertiary uppercase">Guest Guide</span>
+                </span>
+            </a>
+            <a href="tel:+12545550140"
+               class="flex min-h-[42px] min-w-[42px] shrink-0 items-center justify-center gap-1.5 rounded-xl border border-outline-variant/20 bg-surface-container px-2.5 shadow-xs transition-colors hover:bg-surface-container-high active:scale-95"
+               aria-label="Call the front desk at (254) 555-0140">
+                <span class="material-symbols-outlined text-[20px] text-error" aria-hidden="true">call</span>
+                <span class="hidden text-xs font-bold text-on-surface sm:inline">Front Desk</span>
+            </a>
+        </div>
+    </header>
+
+    <main class="mx-auto flex w-full max-w-3xl flex-1 flex-col gap-4 px-4 pt-20 pb-28">
+        
+    <div>
+        <a href="nearby.html" class="inline-flex items-center gap-1 text-xs font-bold text-secondary hover:text-primary">
+            <span class="material-symbols-outlined text-[16px]" aria-hidden="true">arrow_back</span>
+            Nearby
+        </a>
+        <p class="mt-2 text-xs font-bold tracking-wider text-secondary uppercase">Local Concierge</p>
+        <h1 class="font-headline text-2xl font-bold tracking-tight">Search the Area</h1>
+    </div>
+
+    <form id="search-form" method="get" role="search" class="flex gap-2">
+        <label class="sr-only" for="search-q">What are you looking for?</label>
+        <input id="search-q" type="search" name="q" value="" placeholder="Try “food”, “coffee”, “kayak”, “rv repair”…"
+               class="min-w-0 flex-1 rounded-xl border border-outline-variant/40 bg-surface-container-low px-3.5 py-2.5 text-sm shadow-xs placeholder:text-on-surface-variant/70 focus:border-primary focus:outline-none">
+        <button type="submit" class="flex shrink-0 items-center gap-1.5 rounded-xl bg-primary px-4 py-2.5 text-sm font-bold text-on-primary shadow-xs transition-all hover:bg-primary/90 active:scale-95">
+            <span class="material-symbols-outlined text-[18px]" aria-hidden="true">search</span>
+            Search
+        </button>
+    </form>
+
+    
+        <p id="search-summary" class="px-1 text-xs font-bold tracking-wider text-tertiary uppercase">All spots near the park</p>
+    
+
+    <p class="px-1 text-xs text-on-surface-variant">Ratings, hours, and photos are sample data for this demo.</p>
+
+    <div id="search-results" class="flex flex-col gap-4">
+        
+            <article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs">
+                
+                    <img src="assets/pages/images/guide/magnolia/pinecrest-nature-loop.jpg" alt="Pinecrest Nature Loop" class="mb-3 h-32 w-full rounded-xl object-cover">
+                
+                <div class="flex items-start justify-between gap-3">
+                    <div class="min-w-0">
+                        <p class="flex flex-wrap items-center gap-2">
+                            <span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">0.4 mi away</span>
+                            <span class="text-xs font-semibold text-secondary">Trails</span>
+                        </p>
+                        <h2 class="mt-1 font-headline text-lg leading-snug font-bold">Pinecrest Nature Loop</h2>
+                    </div>
+                    
+                </div>
+                <p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Gentle 2.2-mile pine-needle loop from the North Meadow, shaded, with three creek lookout decks and bird markers.</p>
+                
+                    <p class="mt-2 flex items-center gap-1.5 text-sm">
+                        <span class="text-amber-500" aria-hidden="true">★</span>
+                        <span class="font-bold">4.7</span>
+                        <span class="text-on-surface-variant">(198 reviews)</span>
+                        <span class="text-on-surface-variant">• Free</span>
+                    </p>
+                
+                <div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant">
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Open until sunset</p>
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>2601 N University Parks Dr, Waco, TX</p>
+                    
+                </div>
+                <p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant">
+                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span>
+                    3 min drive
+                    <span aria-hidden="true">•</span>
+                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>
+                    About 60 min here
+                </p>
+            </article>
+        
+            <article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs">
+                
+                    <img src="assets/pages/images/guide/magnolia/magnolia-general-deli.jpg" alt="Magnolia General &amp; Deli" class="mb-3 h-32 w-full rounded-xl object-cover">
+                
+                <div class="flex items-start justify-between gap-3">
+                    <div class="min-w-0">
+                        <p class="flex flex-wrap items-center gap-2">
+                            <span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">0.8 mi away</span>
+                            <span class="text-xs font-semibold text-secondary">Eat</span>
+                        </p>
+                        <h2 class="mt-1 font-headline text-lg leading-snug font-bold">Magnolia General &amp; Deli</h2>
+                    </div>
+                    
+                </div>
+                <p class="mt-2 text-sm leading-relaxed text-on-surface-variant">The park-adjacent staple: hot deli sandwiches, fresh biscuits, ice, and every camp supply you forgot to pack.</p>
+                
+                    <p class="mt-2 flex items-center gap-1.5 text-sm">
+                        <span class="text-amber-500" aria-hidden="true">★</span>
+                        <span class="font-bold">4.7</span>
+                        <span class="text-on-surface-variant">(458 reviews)</span>
+                        <span class="text-on-surface-variant">• $</span>
+                    </p>
+                
+                <div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant">
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Open until 9:00 PM</p>
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>1 Magnolia Loop, Waco, TX</p>
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(555) 892-1102</p>
+                </div>
+                <p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant">
+                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span>
+                    4 min drive
+                    <span aria-hidden="true">•</span>
+                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>
+                    About 30 min here
+                </p>
+            </article>
+        
+            <article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs">
+                
+                    <img src="https://www.coldkeepers.com/wp-content/uploads/2026/01/farmer-market-2-1200x800.jpg" alt="Magnolia Farmers Market" class="mb-3 h-32 w-full rounded-xl object-cover">
+                
+                <div class="flex items-start justify-between gap-3">
+                    <div class="min-w-0">
+                        <p class="flex flex-wrap items-center gap-2">
+                            <span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">1.2 mi away</span>
+                            <span class="text-xs font-semibold text-secondary">Shopping</span>
+                        </p>
+                        <h2 class="mt-1 font-headline text-lg leading-snug font-bold">Magnolia Farmers Market</h2>
+                    </div>
+                    
+                </div>
+                <p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Saturday-morning market with local makers, baked goods, fresh-cut flowers, and handmade gifts under the oaks.</p>
+                
+                    <p class="mt-2 flex items-center gap-1.5 text-sm">
+                        <span class="text-amber-500" aria-hidden="true">★</span>
+                        <span class="font-bold">4.7</span>
+                        <span class="text-on-surface-variant">(421 reviews)</span>
+                        <span class="text-on-surface-variant">• $</span>
+                    </p>
+                
+                <div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant">
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Saturdays 8:00 AM - 1:00 PM</p>
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>400 Franklin Ave, Waco, TX</p>
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(254) 555-0126</p>
+                </div>
+                <p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant">
+                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span>
+                    5 min drive
+                    <span aria-hidden="true">•</span>
+                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>
+                    About 45 min here
+                </p>
+            </article>
+        
+            <article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs">
+                
+                    <img src="assets/pages/images/guide/magnolia/timber-creek-kayaks.jpg" alt="Timber Creek Kayaks" class="mb-3 h-32 w-full rounded-xl object-cover">
+                
+                <div class="flex items-start justify-between gap-3">
+                    <div class="min-w-0">
+                        <p class="flex flex-wrap items-center gap-2">
+                            <span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">1.5 mi away</span>
+                            <span class="text-xs font-semibold text-secondary">Water &amp; Paddle Sports</span>
+                        </p>
+                        <h2 class="mt-1 font-headline text-lg leading-snug font-bold">Timber Creek Kayaks</h2>
+                    </div>
+                    
+                </div>
+                <p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Flatwater canoe and paddleboard launches along protected cypress creeks. Resort shuttle picks up at Gate B every hour.</p>
+                
+                    <p class="mt-2 flex items-center gap-1.5 text-sm">
+                        <span class="text-amber-500" aria-hidden="true">★</span>
+                        <span class="font-bold">4.9</span>
+                        <span class="text-on-surface-variant">(287 reviews)</span>
+                        <span class="text-on-surface-variant">• $$</span>
+                    </p>
+                
+                <div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant">
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Open until 6:00 PM</p>
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>88 University Parks Dr, Waco, TX</p>
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(254) 555-0137</p>
+                </div>
+                <p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant">
+                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span>
+                    6 min drive
+                    <span aria-hidden="true">•</span>
+                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>
+                    About 120 min here
+                </p>
+            </article>
+        
+            <article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs">
+                
+                    <img src="assets/pages/images/guide/magnolia/blackwood-propane-firewood.jpg" alt="Blackwood Propane &amp; Firewood" class="mb-3 h-32 w-full rounded-xl object-cover">
+                
+                <div class="flex items-start justify-between gap-3">
+                    <div class="min-w-0">
+                        <p class="flex flex-wrap items-center gap-2">
+                            <span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">1.9 mi away</span>
+                            <span class="text-xs font-semibold text-secondary">Services</span>
+                        </p>
+                        <h2 class="mt-1 font-headline text-lg leading-snug font-bold">Blackwood Propane &amp; Firewood</h2>
+                    </div>
+                    
+                </div>
+                <p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Propane refills by the gallon and kiln-dried firewood bundles, loaded into your truck for you.</p>
+                
+                    <p class="mt-2 flex items-center gap-1.5 text-sm">
+                        <span class="text-amber-500" aria-hidden="true">★</span>
+                        <span class="font-bold">4.6</span>
+                        <span class="text-on-surface-variant">(98 reviews)</span>
+                        <span class="text-on-surface-variant">• $</span>
+                    </p>
+                
+                <div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant">
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Open until 6:00 PM</p>
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>12 Bosque Blvd, Waco, TX</p>
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(555) 620-9811</p>
+                </div>
+                <p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant">
+                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span>
+                    6 min drive
+                    <span aria-hidden="true">•</span>
+                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>
+                    About 15 min here
+                </p>
+            </article>
+        
+            <article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs">
+                
+                    <img src="assets/pages/images/guide/magnolia/pine-valley-farm-stand.jpg" alt="Pine Valley Farm Stand" class="mb-3 h-32 w-full rounded-xl object-cover">
+                
+                <div class="flex items-start justify-between gap-3">
+                    <div class="min-w-0">
+                        <p class="flex flex-wrap items-center gap-2">
+                            <span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">2.1 mi away</span>
+                            <span class="text-xs font-semibold text-secondary">Provisions</span>
+                        </p>
+                        <h2 class="mt-1 font-headline text-lg leading-snug font-bold">Pine Valley Farm Stand</h2>
+                    </div>
+                    
+                </div>
+                <p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Fourth-generation family market: fresh produce, sourdough, wildflower honey, and kiln-dried camp firewood.</p>
+                
+                    <p class="mt-2 flex items-center gap-1.5 text-sm">
+                        <span class="text-amber-500" aria-hidden="true">★</span>
+                        <span class="font-bold">4.8</span>
+                        <span class="text-on-surface-variant">(342 reviews)</span>
+                        <span class="text-on-surface-variant">• $</span>
+                    </p>
+                
+                <div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant">
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Open until 7:00 PM</p>
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>212 Valley Mills Dr, Waco, TX</p>
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(254) 555-0119</p>
+                </div>
+                <p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant">
+                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span>
+                    7 min drive
+                    <span aria-hidden="true">•</span>
+                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>
+                    About 30 min here
+                </p>
+            </article>
+        
+            <article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs">
+                
+                    <img src="https://kvisi.com/wp-content/uploads/2022/05/row-industrial-washing-machines-public-laundromat.png" alt="Brazos Breeze Laundromat" class="mb-3 h-32 w-full rounded-xl object-cover">
+                
+                <div class="flex items-start justify-between gap-3">
+                    <div class="min-w-0">
+                        <p class="flex flex-wrap items-center gap-2">
+                            <span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">2.2 mi away</span>
+                            <span class="text-xs font-semibold text-secondary">Services</span>
+                        </p>
+                        <h2 class="mt-1 font-headline text-lg leading-snug font-bold">Brazos Breeze Laundromat</h2>
+                    </div>
+                    
+                </div>
+                <p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Clean, attended laundromat with oversized washers for bedding and a folding service if you would rather be at the beach.</p>
+                
+                    <p class="mt-2 flex items-center gap-1.5 text-sm">
+                        <span class="text-amber-500" aria-hidden="true">★</span>
+                        <span class="font-bold">4.3</span>
+                        <span class="text-on-surface-variant">(87 reviews)</span>
+                        <span class="text-on-surface-variant">• $</span>
+                    </p>
+                
+                <div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant">
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Open until 10:00 PM</p>
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>305 La Salle Ave, Waco, TX</p>
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(254) 555-0155</p>
+                </div>
+                <p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant">
+                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span>
+                    7 min drive
+                    <span aria-hidden="true">•</span>
+                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>
+                    About 60 min here
+                </p>
+            </article>
+        
+            <article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs">
+                
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/052/810/675/small/a-croissant-and-a-latte-on-a-wooden-table-in-a-caf-setting-photo.jpg" alt="Riverside Bakery &amp; Café" class="mb-3 h-32 w-full rounded-xl object-cover">
+                
+                <div class="flex items-start justify-between gap-3">
+                    <div class="min-w-0">
+                        <p class="flex flex-wrap items-center gap-2">
+                            <span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">2.6 mi away</span>
+                            <span class="text-xs font-semibold text-secondary">Eat</span>
+                        </p>
+                        <h2 class="mt-1 font-headline text-lg leading-snug font-bold">Riverside Bakery &amp; Café</h2>
+                    </div>
+                    
+                </div>
+                <p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Small-batch bakery with strong coffee, cinnamon rolls the size of a plate, and fast Wi-Fi in the corner booths.</p>
+                
+                    <p class="mt-2 flex items-center gap-1.5 text-sm">
+                        <span class="text-amber-500" aria-hidden="true">★</span>
+                        <span class="font-bold">4.9</span>
+                        <span class="text-on-surface-variant">(376 reviews)</span>
+                        <span class="text-on-surface-variant">• $</span>
+                    </p>
+                
+                <div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant">
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Open until 3:00 PM</p>
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>9 Bagby Ave, Waco, TX</p>
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(254) 555-0148</p>
+                </div>
+                <p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant">
+                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span>
+                    8 min drive
+                    <span aria-hidden="true">•</span>
+                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>
+                    About 45 min here
+                </p>
+            </article>
+        
+            <article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs">
+                
+                    <img src="assets/pages/images/guide/magnolia/pine-valley-rv-tech.jpg" alt="Pine Valley RV Tech" class="mb-3 h-32 w-full rounded-xl object-cover">
+                
+                <div class="flex items-start justify-between gap-3">
+                    <div class="min-w-0">
+                        <p class="flex flex-wrap items-center gap-2">
+                            <span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">2.8 mi away</span>
+                            <span class="text-xs font-semibold text-secondary">Services</span>
+                        </p>
+                        <h2 class="mt-1 font-headline text-lg leading-snug font-bold">Pine Valley RV Tech</h2>
+                    </div>
+                    
+                </div>
+                <p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Mobile RV repair that comes to your site: AC, plumbing, tires, and electrical. Same-day slots most days.</p>
+                
+                    <p class="mt-2 flex items-center gap-1.5 text-sm">
+                        <span class="text-amber-500" aria-hidden="true">★</span>
+                        <span class="font-bold">4.8</span>
+                        <span class="text-on-surface-variant">(264 reviews)</span>
+                        <span class="text-on-surface-variant">• $$</span>
+                    </p>
+                
+                <div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant">
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Open until 6:00 PM</p>
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>540 Speegleville Rd, Waco, TX</p>
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(555) 412-9983</p>
+                </div>
+                <p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant">
+                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span>
+                    9 min drive
+                    <span aria-hidden="true">•</span>
+                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>
+                    About 60 min here
+                </p>
+            </article>
+        
+            <article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs">
+                
+                    <img src="https://media-production.lp-cdn.com/cdn-cgi/image/format=auto,quality=85/https://media-production.lp-cdn.com/media/f9d87fbb-baf9-4dd0-b833-b6ae4db4e2c2" alt="Brazos Bike Rentals" class="mb-3 h-32 w-full rounded-xl object-cover">
+                
+                <div class="flex items-start justify-between gap-3">
+                    <div class="min-w-0">
+                        <p class="flex flex-wrap items-center gap-2">
+                            <span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">3.1 mi away</span>
+                            <span class="text-xs font-semibold text-secondary">Activities</span>
+                        </p>
+                        <h2 class="mt-1 font-headline text-lg leading-snug font-bold">Brazos Bike Rentals</h2>
+                    </div>
+                    
+                </div>
+                <p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Beach cruisers and e-bikes by the hour or day, delivered to the park gate. Helmets and locks included.</p>
+                
+                    <p class="mt-2 flex items-center gap-1.5 text-sm">
+                        <span class="text-amber-500" aria-hidden="true">★</span>
+                        <span class="font-bold">4.6</span>
+                        <span class="text-on-surface-variant">(154 reviews)</span>
+                        <span class="text-on-surface-variant">• $$</span>
+                    </p>
+                
+                <div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant">
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Open until 7:00 PM</p>
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>17 S University Parks Dr, Waco, TX</p>
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(254) 555-0173</p>
+                </div>
+                <p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant">
+                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span>
+                    9 min drive
+                    <span aria-hidden="true">•</span>
+                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>
+                    About 90 min here
+                </p>
+            </article>
+        
+            <article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs">
+                
+                    <img src="assets/pages/images/guide/magnolia/ridgeview-brewery.jpg" alt="Ridgeview Craft Brewery &amp; Smokehouse" class="mb-3 h-32 w-full rounded-xl object-cover">
+                
+                <div class="flex items-start justify-between gap-3">
+                    <div class="min-w-0">
+                        <p class="flex flex-wrap items-center gap-2">
+                            <span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">3.4 mi away</span>
+                            <span class="text-xs font-semibold text-secondary">Eat</span>
+                        </p>
+                        <h2 class="mt-1 font-headline text-lg leading-snug font-bold">Ridgeview Craft Brewery &amp; Smokehouse</h2>
+                    </div>
+                    
+                </div>
+                <p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Craft beers and slow-smoked barbecue in an outdoor beer garden with string lights and live music on weekends.</p>
+                
+                    <p class="mt-2 flex items-center gap-1.5 text-sm">
+                        <span class="text-amber-500" aria-hidden="true">★</span>
+                        <span class="font-bold">4.6</span>
+                        <span class="text-on-surface-variant">(689 reviews)</span>
+                        <span class="text-on-surface-variant">• $$</span>
+                    </p>
+                
+                <div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant">
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Open until 11:00 PM</p>
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>77 Waco Dr, Waco, TX</p>
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(555) 331-9042</p>
+                </div>
+                <p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant">
+                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span>
+                    10 min drive
+                    <span aria-hidden="true">•</span>
+                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>
+                    About 90 min here
+                </p>
+            </article>
+        
+            <article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs">
+                
+                    <img src="https://images.fineartamerica.com/images/artworkimages/medium/3/the-old-jacksonville-beach-pier-kay-brewer.jpg" alt="Lake Waco Beach &amp; Pier" class="mb-3 h-32 w-full rounded-xl object-cover">
+                
+                <div class="flex items-start justify-between gap-3">
+                    <div class="min-w-0">
+                        <p class="flex flex-wrap items-center gap-2">
+                            <span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">3.8 mi away</span>
+                            <span class="text-xs font-semibold text-secondary">Beach &amp; Outdoors</span>
+                        </p>
+                        <h2 class="mt-1 font-headline text-lg leading-snug font-bold">Lake Waco Beach &amp; Pier</h2>
+                    </div>
+                    
+                </div>
+                <p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Sandy swim beach on Lake Waco with a fishing pier, lifeguards in season, and the best sunset view over the water.</p>
+                
+                    <p class="mt-2 flex items-center gap-1.5 text-sm">
+                        <span class="text-amber-500" aria-hidden="true">★</span>
+                        <span class="font-bold">4.8</span>
+                        <span class="text-on-surface-variant">(512 reviews)</span>
+                        <span class="text-on-surface-variant">• $</span>
+                    </p>
+                
+                <div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant">
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Open until 8:00 PM</p>
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>101 Lake Shore Dr, Waco, TX</p>
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(254) 555-0164</p>
+                </div>
+                <p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant">
+                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span>
+                    11 min drive
+                    <span aria-hidden="true">•</span>
+                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>
+                    About 120 min here
+                </p>
+            </article>
+        
+            <article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs">
+                
+                    <img src="https://hopsa.io/assets/ab27e010-2866-4dc0-8adf-514cd4e850a6/h-and-a-strovolos-1-fishing-and-hunting-b25f3daf0a" alt="Bluewater Bait &amp; Tackle" class="mb-3 h-32 w-full rounded-xl object-cover">
+                
+                <div class="flex items-start justify-between gap-3">
+                    <div class="min-w-0">
+                        <p class="flex flex-wrap items-center gap-2">
+                            <span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">4.2 mi away</span>
+                            <span class="text-xs font-semibold text-secondary">Shopping</span>
+                        </p>
+                        <h2 class="mt-1 font-headline text-lg leading-snug font-bold">Bluewater Bait &amp; Tackle</h2>
+                    </div>
+                    
+                </div>
+                <p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Live bait, rod rentals, fishing licenses, and straight answers on what is biting off the pier this week.</p>
+                
+                    <p class="mt-2 flex items-center gap-1.5 text-sm">
+                        <span class="text-amber-500" aria-hidden="true">★</span>
+                        <span class="font-bold">4.5</span>
+                        <span class="text-on-surface-variant">(132 reviews)</span>
+                        <span class="text-on-surface-variant">• $</span>
+                    </p>
+                
+                <div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant">
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Open until 8:00 PM</p>
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>230 Airport Rd, Waco, TX</p>
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(254) 555-0191</p>
+                </div>
+                <p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant">
+                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span>
+                    12 min drive
+                    <span aria-hidden="true">•</span>
+                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>
+                    About 30 min here
+                </p>
+            </article>
+        
+            <article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs">
+                
+                    <img src="https://www.dogingtonpost.com/wp-content/uploads/2022/04/Bring-your-dog-to-the-vet-1024x614.jpg.webp" alt="Oak Ridge Urgent &amp; Vet" class="mb-3 h-32 w-full rounded-xl object-cover">
+                
+                <div class="flex items-start justify-between gap-3">
+                    <div class="min-w-0">
+                        <p class="flex flex-wrap items-center gap-2">
+                            <span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">6.0 mi away</span>
+                            <span class="text-xs font-semibold text-secondary">Emergency</span>
+                        </p>
+                        <h2 class="mt-1 font-headline text-lg leading-snug font-bold">Oak Ridge Urgent &amp; Vet</h2>
+                    </div>
+                    
+                </div>
+                <p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Combined urgent care and emergency veterinary hospital, open 24/7. Walk-ins welcome, no appointment needed.</p>
+                
+                    <p class="mt-2 flex items-center gap-1.5 text-sm">
+                        <span class="text-amber-500" aria-hidden="true">★</span>
+                        <span class="font-bold">4.4</span>
+                        <span class="text-on-surface-variant">(203 reviews)</span>
+                        <span class="text-on-surface-variant">• $$</span>
+                    </p>
+                
+                <div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant">
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Open 24 hours</p>
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>900 Imperial Dr, Waco, TX</p>
+                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(555) 091-1234</p>
+                </div>
+                <p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant">
+                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span>
+                    14 min drive
+                    <span aria-hidden="true">•</span>
+                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>
+                    About 45 min here
+                </p>
+            </article>
+        
+    </div>
+
+    <script>window.SHOWCASE_PLACES = [{"name": "Lake Waco Beach & Pier", "category_label": "Beach & Outdoors", "distance_mi": 3.8, "drive_min": 11, "visit_min": 120, "plan": true, "priority": 1, "keywords": "beach swim lake sand sunset pier fishing water", "blurb": "Sandy swim beach on Lake Waco with a fishing pier, lifeguards in season, and the best sunset view over the water.", "rating": 4.8, "reviews": 512, "price": "$", "hours": "Open until 8:00 PM", "phone": "(254) 555-0164", "address": "101 Lake Shore Dr, Waco, TX", "x": 16, "y": 46, "lat": 31.535, "lng": -97.215, "image": "https://images.fineartamerica.com/images/artworkimages/medium/3/the-old-jacksonville-beach-pier-kay-brewer.jpg"}, {"name": "Timber Creek Kayaks", "category_label": "Water & Paddle Sports", "distance_mi": 1.5, "drive_min": 6, "visit_min": 120, "plan": true, "priority": 2, "keywords": "kayak paddle canoe boat water river rental creek sup", "blurb": "Flatwater canoe and paddleboard launches along protected cypress creeks. Resort shuttle picks up at Gate B every hour.", "rating": 4.9, "reviews": 287, "price": "$$", "hours": "Open until 6:00 PM", "phone": "(254) 555-0137", "address": "88 University Parks Dr, Waco, TX", "image": "pages/images/guide/magnolia/timber-creek-kayaks.jpg", "x": 36, "y": 28, "lat": 31.578, "lng": -97.16}, {"name": "Pinecrest Nature Loop", "category_label": "Trails", "distance_mi": 0.4, "drive_min": 3, "visit_min": 60, "plan": true, "priority": 3, "keywords": "trail hike walk nature birds forest loop dog stroller", "blurb": "Gentle 2.2-mile pine-needle loop from the North Meadow, shaded, with three creek lookout decks and bird markers.", "rating": 4.7, "reviews": 198, "price": "Free", "hours": "Open until sunset", "phone": "", "address": "2601 N University Parks Dr, Waco, TX", "image": "pages/images/guide/magnolia/pinecrest-nature-loop.jpg", "x": 58, "y": 34, "lat": 31.566, "lng": -97.168}, {"name": "Pine Valley Farm Stand", "category_label": "Provisions", "distance_mi": 2.1, "drive_min": 7, "visit_min": 30, "plan": true, "priority": 4, "keywords": "groceries produce farm food honey firewood market shopping fresh eggs", "blurb": "Fourth-generation family market: fresh produce, sourdough, wildflower honey, and kiln-dried camp firewood.", "rating": 4.8, "reviews": 342, "price": "$", "hours": "Open until 7:00 PM", "phone": "(254) 555-0119", "address": "212 Valley Mills Dr, Waco, TX", "image": "pages/images/guide/magnolia/pine-valley-farm-stand.jpg", "x": 68, "y": 26, "lat": 31.575, "lng": -97.145}, {"name": "Brazos Bike Rentals", "category_label": "Activities", "distance_mi": 3.1, "drive_min": 9, "visit_min": 90, "plan": true, "priority": 5, "keywords": "bike rental cycling beach cruiser ride", "blurb": "Beach cruisers and e-bikes by the hour or day, delivered to the park gate. Helmets and locks included.", "rating": 4.6, "reviews": 154, "price": "$$", "hours": "Open until 7:00 PM", "phone": "(254) 555-0173", "address": "17 S University Parks Dr, Waco, TX", "x": 30, "y": 60, "lat": 31.552, "lng": -97.135, "image": "https://media-production.lp-cdn.com/cdn-cgi/image/format=auto,quality=85/https://media-production.lp-cdn.com/media/f9d87fbb-baf9-4dd0-b833-b6ae4db4e2c2"}, {"name": "Magnolia Farmers Market", "category_label": "Shopping", "distance_mi": 1.2, "drive_min": 5, "visit_min": 45, "plan": true, "priority": 6, "keywords": "market local crafts produce gifts saturday shopping souvenirs", "blurb": "Saturday-morning market with local makers, baked goods, fresh-cut flowers, and handmade gifts under the oaks.", "rating": 4.7, "reviews": 421, "price": "$", "hours": "Saturdays 8:00 AM - 1:00 PM", "phone": "(254) 555-0126", "address": "400 Franklin Ave, Waco, TX", "x": 60, "y": 64, "lat": 31.551, "lng": -97.162, "image": "https://www.coldkeepers.com/wp-content/uploads/2026/01/farmer-market-2-1200x800.jpg"}, {"name": "Ridgeview Craft Brewery & Smokehouse", "category_label": "Eat", "distance_mi": 3.4, "drive_min": 10, "visit_min": 90, "plan": true, "priority": 7, "keywords": "beer brewery bbq smokehouse dinner food drinks restaurant live music", "blurb": "Craft beers and slow-smoked barbecue in an outdoor beer garden with string lights and live music on weekends.", "rating": 4.6, "reviews": 689, "price": "$$", "hours": "Open until 11:00 PM", "phone": "(555) 331-9042", "address": "77 Waco Dr, Waco, TX", "image": "pages/images/guide/magnolia/ridgeview-brewery.jpg", "x": 74, "y": 50, "lat": 31.585, "lng": -97.128}, {"name": "Riverside Bakery & Caf\u00e9", "category_label": "Eat", "distance_mi": 2.6, "drive_min": 8, "visit_min": 45, "plan": true, "priority": 8, "keywords": "coffee bakery breakfast pastries cafe wifi espresso", "blurb": "Small-batch bakery with strong coffee, cinnamon rolls the size of a plate, and fast Wi-Fi in the corner booths.", "rating": 4.9, "reviews": 376, "price": "$", "hours": "Open until 3:00 PM", "phone": "(254) 555-0148", "address": "9 Bagby Ave, Waco, TX", "x": 64, "y": 72, "lat": 31.543, "lng": -97.14, "image": "https://static.vecteezy.com/system/resources/thumbnails/052/810/675/small/a-croissant-and-a-latte-on-a-wooden-table-in-a-caf-setting-photo.jpg"}, {"name": "Bluewater Bait & Tackle", "category_label": "Shopping", "distance_mi": 4.2, "drive_min": 12, "visit_min": 30, "plan": true, "priority": 9, "keywords": "fishing bait tackle gear beach supplies rods licenses", "blurb": "Live bait, rod rentals, fishing licenses, and straight answers on what is biting off the pier this week.", "rating": 4.5, "reviews": 132, "price": "$", "hours": "Open until 8:00 PM", "phone": "(254) 555-0191", "address": "230 Airport Rd, Waco, TX", "x": 22, "y": 68, "lat": 31.53, "lng": -97.225, "image": "https://hopsa.io/assets/ab27e010-2866-4dc0-8adf-514cd4e850a6/h-and-a-strovolos-1-fishing-and-hunting-b25f3daf0a"}, {"name": "Magnolia General & Deli", "category_label": "Eat", "distance_mi": 0.8, "drive_min": 4, "visit_min": 30, "plan": true, "priority": 10, "keywords": "food deli sandwich groceries store supplies breakfast lunch ice", "blurb": "The park-adjacent staple: hot deli sandwiches, fresh biscuits, ice, and every camp supply you forgot to pack.", "rating": 4.7, "reviews": 458, "price": "$", "hours": "Open until 9:00 PM", "phone": "(555) 892-1102", "address": "1 Magnolia Loop, Waco, TX", "image": "pages/images/guide/magnolia/magnolia-general-deli.jpg", "x": 54, "y": 48, "lat": 31.556, "lng": -97.166}, {"name": "Pine Valley RV Tech", "category_label": "Services", "distance_mi": 2.8, "drive_min": 9, "visit_min": 60, "plan": false, "priority": 99, "keywords": "rv repair mechanic tire service fix ac plumbing emergency", "blurb": "Mobile RV repair that comes to your site: AC, plumbing, tires, and electrical. Same-day slots most days.", "rating": 4.8, "reviews": 264, "price": "$$", "hours": "Open until 6:00 PM", "phone": "(555) 412-9983", "address": "540 Speegleville Rd, Waco, TX", "image": "pages/images/guide/magnolia/pine-valley-rv-tech.jpg", "x": 72, "y": 38, "lat": 31.582, "lng": -97.15}, {"name": "Blackwood Propane & Firewood", "category_label": "Services", "distance_mi": 1.9, "drive_min": 6, "visit_min": 15, "plan": false, "priority": 99, "keywords": "propane firewood supplies refill tank wood", "blurb": "Propane refills by the gallon and kiln-dried firewood bundles, loaded into your truck for you.", "rating": 4.6, "reviews": 98, "price": "$", "hours": "Open until 6:00 PM", "phone": "(555) 620-9811", "address": "12 Bosque Blvd, Waco, TX", "image": "pages/images/guide/magnolia/blackwood-propane-firewood.jpg", "x": 42, "y": 74, "lat": 31.54, "lng": -97.155}, {"name": "Brazos Breeze Laundromat", "category_label": "Services", "distance_mi": 2.2, "drive_min": 7, "visit_min": 60, "plan": false, "priority": 99, "keywords": "laundry wash clothes laundromat dry cleaning", "blurb": "Clean, attended laundromat with oversized washers for bedding and a folding service if you would rather be at the beach.", "rating": 4.3, "reviews": 87, "price": "$", "hours": "Open until 10:00 PM", "phone": "(254) 555-0155", "address": "305 La Salle Ave, Waco, TX", "x": 66, "y": 82, "lat": 31.538, "lng": -97.168, "image": "https://kvisi.com/wp-content/uploads/2022/05/row-industrial-washing-machines-public-laundromat.png"}, {"name": "Oak Ridge Urgent & Vet", "category_label": "Emergency", "distance_mi": 6.0, "drive_min": 14, "visit_min": 45, "plan": false, "priority": 99, "keywords": "doctor urgent care vet pet emergency hospital clinic sick hurt", "blurb": "Combined urgent care and emergency veterinary hospital, open 24/7. Walk-ins welcome, no appointment needed.", "rating": 4.4, "reviews": 203, "price": "$$", "hours": "Open 24 hours", "phone": "(555) 091-1234", "address": "900 Imperial Dr, Waco, TX", "x": 86, "y": 68, "lat": 31.565, "lng": -97.075, "image": "https://www.dogingtonpost.com/wp-content/uploads/2022/04/Bring-your-dog-to-the-vet-1024x614.jpg.webp"}]; window.SHOWCASE_ASSET_BASE = "assets/";</script>
+    <script src="assets/pages/js/showcase.js"></script>
+
+    </main>
+
+    <nav class="fixed bottom-0 z-50 w-full border-t border-outline-variant/30 bg-surface/95 pb-[env(safe-area-inset-bottom)] backdrop-blur-xl" aria-label="Guest guide">
+        <div class="mx-auto flex h-16 max-w-3xl items-center justify-around px-2">
+            
+                
+                
+                    <a href="index.html" class="flex min-h-[44px] flex-1 flex-col items-center justify-center rounded-xl px-1 py-1.5 text-on-surface-variant transition-colors hover:text-primary">
+                        <span class="material-symbols-outlined text-[22px]" aria-hidden="true">home</span>
+                        <span class="mt-0.5 text-[11px] font-semibold">Home</span>
+                    </a>
+                
+            
+                
+                
+                    <a href="stay.html" class="flex min-h-[44px] flex-1 flex-col items-center justify-center rounded-xl px-1 py-1.5 text-on-surface-variant transition-colors hover:text-primary">
+                        <span class="material-symbols-outlined text-[22px]" aria-hidden="true">info</span>
+                        <span class="mt-0.5 text-[11px] font-semibold">Stay Info</span>
+                    </a>
+                
+            
+                
+                
+                    <a href="nearby.html" aria-current="page" class="flex min-h-[44px] flex-1 flex-col items-center justify-center rounded-xl bg-primary-fixed/50 px-1 py-1.5 font-bold text-primary">
+                        <span class="material-symbols-outlined icon-fill text-[22px]" aria-hidden="true">explore</span>
+                        <span class="mt-0.5 text-[11px]">Nearby</span>
+                    </a>
+                
+            
+                
+                
+                    <a href="sponsors.html" class="flex min-h-[44px] flex-1 flex-col items-center justify-center rounded-xl px-1 py-1.5 text-on-surface-variant transition-colors hover:text-primary">
+                        <span class="material-symbols-outlined text-[22px]" aria-hidden="true">local_offer</span>
+                        <span class="mt-0.5 text-[11px] font-semibold">Sponsors</span>
+                    </a>
+                
+            
+                
+                
+                    <a href="contact.html" class="flex min-h-[44px] flex-1 flex-col items-center justify-center rounded-xl px-1 py-1.5 text-on-surface-variant transition-colors hover:text-primary">
+                        <span class="material-symbols-outlined text-[22px]" aria-hidden="true">call</span>
+                        <span class="mt-0.5 text-[11px] font-semibold">Contact</span>
+                    </a>
+                
+            
+        </div>
+    </nav>
+
+    
+    <div id="guide-toast" role="status" aria-live="polite"
+         class="pointer-events-none fixed bottom-24 left-1/2 z-50 -translate-x-1/2 opacity-0 transition-opacity duration-300">
+        <div class="flex items-center gap-2 rounded-full bg-primary px-4 py-2.5 text-xs font-bold whitespace-nowrap text-on-primary shadow-lg">
+            <span class="material-symbols-outlined text-[17px] text-primary-fixed" aria-hidden="true">check_circle</span>
+            <span data-toast-message>Copied!</span>
+        </div>
+    </div>
+
+    <script src="assets/pages/js/guide.js" defer></script>
+</body>
+</html>
