@@ -189,7 +189,7 @@
             } else {
                 resultsBox.innerHTML = '<div class="rounded-2xl border border-outline-variant/40 bg-surface-container p-4">'
                     + '<p class="text-sm font-bold">Nothing near the park matches \u201C' + esc(query) + '\u201D yet.</p>'
-                    + '<p class="mt-1 text-sm leading-relaxed text-on-surface-variant">Try a single word \u2014 \u201Cfood\u201D, \u201Cbeach\u201D, \u201Ckayak\u201D, \u201Cpropane\u201D, or \u201Claundry\u201D all turn up something good around here.</p></div>';
+                    + '<p class="mt-1 text-sm leading-relaxed text-on-surface-variant">Try a single word \u2014 \u201Cfood\u201D, \u201Cbbq\u201D, \u201Cdonuts\u201D, \u201Cmuseum\u201D, or \u201Claundry\u201D all turn up something good around here.</p></div>';
             }
         }
 

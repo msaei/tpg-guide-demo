@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Static export of magnolia-rv-resort, 2026-11-05 -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="robots" content="noindex">
@@ -53,6 +54,8 @@
         <h1 class="font-headline text-2xl font-bold tracking-tight">Explore the Area</h1>
     </div>
 
+    
+        
     <section class="grid grid-cols-2 gap-3" aria-label="Search and planning tools">
         <a href="search.html" class="group flex h-full flex-col justify-between gap-3 rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs transition-all hover:bg-surface-container active:scale-[0.98]">
             <span class="flex items-center justify-between">
@@ -80,7 +83,6 @@
         </a>
     </section>
 
-    
 <div role="group" aria-label="Filter nearby places" data-filter-chips="nearby-places"
      class="scrollbar-none -mx-4 flex items-center gap-2 overflow-x-auto px-4 pb-1">
     <button type="button" data-filter="all" aria-pressed="true"
@@ -89,10 +91,10 @@
         All Spots
     </button>
     
-        <button type="button" data-filter="recreation" aria-pressed="false"
+        <button type="button" data-filter="activities" aria-pressed="false"
                 class="group flex shrink-0 items-center gap-1.5 rounded-full bg-surface-container px-3.5 py-1.5 text-xs font-bold text-on-surface-variant transition-all hover:bg-surface-container-high active:scale-95 aria-pressed:bg-primary aria-pressed:text-on-primary aria-pressed:shadow-xs">
-            <span class="material-symbols-outlined text-[16px] text-primary group-aria-pressed:text-on-primary" aria-hidden="true">kayaking</span>
-            Water &amp; Outdoors
+            <span class="material-symbols-outlined text-[16px] text-tertiary group-aria-pressed:text-on-primary" aria-hidden="true">local_activity</span>
+            Activities
         </button>
     
         <button type="button" data-filter="trails" aria-pressed="false"
@@ -101,42 +103,39 @@
             Trails
         </button>
     
-        <button type="button" data-filter="provisions" aria-pressed="false"
+        <button type="button" data-filter="outdoors" aria-pressed="false"
                 class="group flex shrink-0 items-center gap-1.5 rounded-full bg-surface-container px-3.5 py-1.5 text-xs font-bold text-on-surface-variant transition-all hover:bg-surface-container-high active:scale-95 aria-pressed:bg-primary aria-pressed:text-on-primary aria-pressed:shadow-xs">
-            <span class="material-symbols-outlined text-[16px] text-tertiary group-aria-pressed:text-on-primary" aria-hidden="true">storefront</span>
-            Provisions
+            <span class="material-symbols-outlined text-[16px] text-primary group-aria-pressed:text-on-primary" aria-hidden="true">kayaking</span>
+            Water &amp; Outdoors
         </button>
     
-        <button type="button" data-filter="health" aria-pressed="false"
+        <button type="button" data-filter="emergency" aria-pressed="false"
                 class="group flex shrink-0 items-center gap-1.5 rounded-full bg-surface-container px-3.5 py-1.5 text-xs font-bold text-on-surface-variant transition-all hover:bg-surface-container-high active:scale-95 aria-pressed:bg-primary aria-pressed:text-on-primary aria-pressed:shadow-xs">
-            <span class="material-symbols-outlined text-[16px] text-error group-aria-pressed:text-on-primary" aria-hidden="true">local_hospital</span>
+            <span class="material-symbols-outlined text-[16px] text-error group-aria-pressed:text-on-primary" aria-hidden="true">medical_services</span>
             Emergency
         </button>
     
 </div>
 
 
-    <div id="nearby-places" class="flex flex-col gap-4">
-        
+        <div id="nearby-places" class="flex flex-col gap-4">
             
+                
 
-<article data-category="recreation" class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low shadow-xs">
+<article data-category="activities" class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low shadow-xs">
     
-        <div class="relative h-44 bg-surface-container">
-            <img src="assets/pages/images/guide/magnolia/timber-creek-kayaks.jpg" alt="River bend at sunset with a wooden dock and kayaks resting on racks under tall pines" class="h-full w-full object-cover" loading="lazy">
-            <div class="absolute inset-0 bg-linear-to-t from-black/80 via-black/20 to-transparent"></div>
-            <div class="absolute top-3 left-3 flex flex-wrap items-center gap-1.5">
-                <span class="flex items-center gap-1 rounded-full bg-surface/90 px-2.5 py-1 text-xs font-bold backdrop-blur-sm">
-                    <span class="material-symbols-outlined text-[14px] text-primary" aria-hidden="true">near_me</span>
-                    1.5 mi away
-                </span>
-                
-                    <span class="rounded-full bg-primary px-2.5 py-1 text-xs font-semibold text-on-primary">Resort Shuttle</span>
-                
-            </div>
-            <div class="absolute inset-x-3 bottom-3 text-white">
-                <p class="text-xs font-semibold tracking-wider text-tertiary-fixed uppercase">Water &amp; Paddle Sports</p>
-                <h2 class="font-headline text-xl leading-tight font-bold">Timber Creek Kayaks</h2>
+        <div class="flex items-start gap-3 p-4 pb-0">
+            <span class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-tertiary-fixed text-on-tertiary-fixed">
+                <span class="material-symbols-outlined text-[26px]" aria-hidden="true">local_activity</span>
+            </span>
+            <div class="min-w-0">
+                <p class="flex flex-wrap items-center gap-2">
+                    
+                    
+                        <span class="text-xs font-semibold text-secondary">Mon – Sat 9 AM – 6 PM</span>
+                    
+                </p>
+                <h2 class="mt-0.5 font-headline text-lg font-bold">Magnolia Market at the Silos</h2>
             </div>
         </div>
     
@@ -145,38 +144,17 @@
         
 
         
-
-        <p class="text-sm leading-relaxed text-on-surface-variant">Flatwater canoe and stand-up paddleboard launches along protected cypress creeks. The complimentary resort shuttle picks up at Magnolia Gate B every hour.</p>
-
-        
-            <ul class="flex flex-wrap items-center gap-1.5">
-                
-                    <li class="flex items-center gap-1 rounded-lg bg-surface-container px-2.5 py-1 text-xs text-on-surface-variant">
-                        <span class="material-symbols-outlined text-[14px] text-primary" aria-hidden="true">schedule</span>
-                        8 AM – 6 PM
-                    </li>
-                
-                    <li class="flex items-center gap-1 rounded-lg bg-surface-container px-2.5 py-1 text-xs text-on-surface-variant">
-                        <span class="material-symbols-outlined text-[14px] text-primary" aria-hidden="true">pets</span>
-                        Dog-friendly tandem
-                    </li>
-                
-                    <li class="flex items-center gap-1 rounded-lg bg-surface-container px-2.5 py-1 text-xs text-on-surface-variant">
-                        <span class="material-symbols-outlined text-[14px] text-primary" aria-hidden="true">directions_bus</span>
-                        10 min ride
-                    </li>
-                
-            </ul>
+            <p class="text-sm leading-relaxed text-on-surface-variant">Chip and Joanna Gaines&#x27;s shops, bakery and garden around the historic silos in downtown Waco. Closed Sundays.</p>
         
 
         
             <div class="flex items-center gap-2 pt-1">
-                <a href="tel:+15550192837"
+                <a href="tel:+12542350603"
                    class="flex min-h-[46px] flex-1 items-center justify-center gap-2 rounded-xl px-4 text-sm font-bold shadow-xs transition-all active:scale-[0.99] bg-primary text-on-primary hover:bg-primary/90">
-                    <span class="material-symbols-outlined text-[18px]" aria-hidden="true">calendar_month</span>
-                    Book Rentals
+                    <span class="material-symbols-outlined text-[18px]" aria-hidden="true">call</span>
+                    Call
                 </a>
-                <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Timber+Creek+Kayaks%2C+Waco%2C+TX" target="_blank" rel="noopener" aria-label="Directions to Timber Creek Kayaks"
+                <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Magnolia+Market+at+the+Silos%2C+601+Webster+Ave%2C+Waco%2C+TX" target="_blank" rel="noopener" aria-label="Directions to Magnolia Market at the Silos"
                    class="flex min-h-[46px] min-w-[46px] items-center justify-center rounded-xl bg-surface-container text-primary transition-colors hover:bg-surface-container-high active:scale-95">
                     <span class="material-symbols-outlined text-[20px]" aria-hidden="true">directions</span>
                 </a>
@@ -185,8 +163,8 @@
     </div>
 </article>
 
-        
             
+                
 
 <article data-category="trails" class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low shadow-xs">
     
@@ -197,44 +175,26 @@
             <div class="min-w-0">
                 <p class="flex flex-wrap items-center gap-2">
                     
-                        <span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">0.4 mi away</span>
-                        <span class="text-xs font-semibold text-secondary">Direct Trailhead Access</span>
+                    
+                        <span class="text-xs font-semibold text-secondary">Free • 6 AM – midnight</span>
                     
                 </p>
-                <h2 class="mt-0.5 font-headline text-lg font-bold">Pinecrest Nature Loop</h2>
+                <h2 class="mt-0.5 font-headline text-lg font-bold">Cameron Park</h2>
             </div>
         </div>
     
 
     <div class="flex flex-col gap-3 p-4">
         
-            <div class="relative h-28 overflow-hidden rounded-xl bg-surface-container">
-                <img src="assets/pages/images/guide/magnolia/pinecrest-nature-loop.jpg" alt="Sun-dappled forest trail with wooden handrails winding through tall pines" class="h-full w-full object-cover" loading="lazy">
-                
-                    <span class="absolute bottom-2 left-2 flex items-center gap-1.5 rounded-lg bg-black/60 px-2.5 py-1 text-xs font-semibold text-white backdrop-blur-sm">
-                        <span class="material-symbols-outlined text-[14px] text-tertiary-fixed" aria-hidden="true">straighten</span>
-                        2.2 mi Loop • Easy / Family Friendly
-                    </span>
-                
-            </div>
+
+        
+            <p class="text-sm leading-relaxed text-on-surface-variant">A 416-acre city park along the Brazos River with more than 20 miles of hiking and biking trails, picnic areas and a disc golf course.</p>
         
 
         
-
-        <p class="text-sm leading-relaxed text-on-surface-variant">Gentle pine-needle footpath connecting directly from the resort&#x27;s North Meadow. Shaded under canopy with three creek lookout decks and native bird identification markers.</p>
-
-        
-
-        
-            <div class="flex items-center justify-between gap-3 pt-1">
-                
-                    <span class="flex items-center gap-1.5 text-xs font-bold text-on-surface-variant">
-                        <span class="material-symbols-outlined text-[18px] text-primary" aria-hidden="true">family_restroom</span>
-                        Stroller &amp; Leash OK
-                    </span>
-                
-                <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Pinecrest+Nature+Loop+trailhead%2C+Waco%2C+TX" target="_blank" rel="noopener"
-                   class="ml-auto flex min-h-[42px] shrink-0 items-center gap-1.5 rounded-xl bg-surface-container px-3.5 text-xs font-bold text-primary transition-colors hover:bg-surface-container-high active:scale-95">
+            <div class="flex justify-end pt-1">
+                <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Cameron+Park%2C+2601+N+University+Parks+Dr%2C+Waco%2C+TX" target="_blank" rel="noopener"
+                   class="flex min-h-[42px] shrink-0 items-center gap-1.5 rounded-xl bg-surface-container px-3.5 text-xs font-bold text-primary transition-colors hover:bg-surface-container-high active:scale-95">
                     <span class="material-symbols-outlined text-[16px]" aria-hidden="true">directions</span>
                     Directions
                 </a>
@@ -243,56 +203,38 @@
     </div>
 </article>
 
-        
             
+                
 
-<article data-category="provisions" class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low shadow-xs">
+<article data-category="outdoors" class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low shadow-xs">
     
         <div class="flex items-start gap-3 p-4 pb-0">
-            <span class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-secondary-container text-on-secondary-container">
-                <span class="material-symbols-outlined text-[26px]" aria-hidden="true">storefront</span>
+            <span class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-primary-fixed text-on-primary-fixed">
+                <span class="material-symbols-outlined text-[26px]" aria-hidden="true">kayaking</span>
             </span>
             <div class="min-w-0">
                 <p class="flex flex-wrap items-center gap-2">
                     
-                        <span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">2.1 mi away</span>
-                        <span class="text-xs font-semibold text-secondary">Open Until 7 PM</span>
+                    
+                        <span class="text-xs font-semibold text-secondary">Free • Open daily</span>
                     
                 </p>
-                <h2 class="mt-0.5 font-headline text-lg font-bold">Pine Valley Farm Stand</h2>
+                <h2 class="mt-0.5 font-headline text-lg font-bold">Waco Suspension Bridge &amp; Riverwalk</h2>
             </div>
         </div>
     
 
     <div class="flex flex-col gap-3 p-4">
         
-            <div class="relative h-28 overflow-hidden rounded-xl bg-surface-container">
-                <img src="assets/pages/images/guide/magnolia/pine-valley-farm-stand.jpg" alt="Rustic roadside farm stand with crates of produce, honey jars and stacked firewood" class="h-full w-full object-cover" loading="lazy">
-                
-                    <span class="absolute bottom-2 left-2 flex items-center gap-1.5 rounded-lg bg-black/60 px-2.5 py-1 text-xs font-semibold text-white backdrop-blur-sm">
-                        <span class="material-symbols-outlined text-[14px] text-tertiary-fixed" aria-hidden="true">local_fire_department</span>
-                        Campfire Wood &amp; S&#x27;mores Kits
-                    </span>
-                
-            </div>
+
+        
+            <p class="text-sm leading-relaxed text-on-surface-variant">Walk the 1870 suspension bridge over the Brazos River, then follow the lighted Riverwalk trail along both banks.</p>
         
 
         
-
-        <p class="text-sm leading-relaxed text-on-surface-variant">Fourth-generation family market with fresh organic produce, sweet cream butter, sourdough loaves, wildflower honey, and kiln-dried camp firewood bundled for easy RV storage.</p>
-
-        
-
-        
-            <div class="flex items-center justify-between gap-3 pt-1">
-                
-                    <span class="flex items-center gap-1.5 text-xs font-bold text-tertiary">
-                        <span class="material-symbols-outlined text-[18px] text-primary" aria-hidden="true">verified</span>
-                        10% RV Guest Discount
-                    </span>
-                
-                <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Pine+Valley+Farm+Stand%2C+Waco%2C+TX" target="_blank" rel="noopener"
-                   class="ml-auto flex min-h-[42px] shrink-0 items-center gap-1.5 rounded-xl bg-surface-container px-3.5 text-xs font-bold text-primary transition-colors hover:bg-surface-container-high active:scale-95">
+            <div class="flex justify-end pt-1">
+                <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Waco+Suspension+Bridge+%26+Riverwalk%2C+101+N+University+Parks+Dr%2C+Waco%2C+TX" target="_blank" rel="noopener"
+                   class="flex min-h-[42px] shrink-0 items-center gap-1.5 rounded-xl bg-surface-container px-3.5 text-xs font-bold text-primary transition-colors hover:bg-surface-container-high active:scale-95">
                     <span class="material-symbols-outlined text-[16px]" aria-hidden="true">directions</span>
                     Directions
                 </a>
@@ -301,10 +243,10 @@
     </div>
 </article>
 
-        
             
+                
 
-<article data-category="health" class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low shadow-xs">
+<article data-category="emergency" class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low shadow-xs">
     
         <div class="flex items-start gap-3 p-4 pb-0">
             <span class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-error-container text-on-error-container">
@@ -313,14 +255,14 @@
             <div class="min-w-0">
                 <p class="flex flex-wrap items-center gap-2">
                     
+                    
                         <span class="flex items-center gap-1 rounded-full bg-error-container px-2 py-0.5 text-xs font-bold text-on-error-container">
                             <span class="h-1.5 w-1.5 rounded-full bg-error"></span>
-                            24/7 ER Available
+                            24/7 Emergency Room
                         </span>
-                        <span class="text-xs font-semibold text-on-surface-variant">6.0 mi</span>
                     
                 </p>
-                <h2 class="mt-0.5 font-headline text-lg font-bold">Oak Ridge Urgent &amp; Vet</h2>
+                <h2 class="mt-0.5 font-headline text-lg font-bold">Baylor Scott &amp; White – Hillcrest</h2>
             </div>
         </div>
     
@@ -329,39 +271,17 @@
         
 
         
-            <ul class="flex flex-col gap-2 rounded-xl bg-surface-container p-3 text-xs">
-                
-                    <li class="flex items-center justify-between gap-3 ">
-                        <span class="flex items-center gap-1.5 font-bold">
-                            <span class="material-symbols-outlined text-[16px] text-error" aria-hidden="true">personal_injury</span>
-                            Walk-in Urgent Care
-                        </span>
-                        <span class="text-right text-on-surface-variant">No appointment needed</span>
-                    </li>
-                
-                    <li class="flex items-center justify-between gap-3 border-t border-surface-container-highest pt-2">
-                        <span class="flex items-center gap-1.5 font-bold">
-                            <span class="material-symbols-outlined text-[16px] text-primary" aria-hidden="true">pets</span>
-                            Emergency Veterinary Hospital
-                        </span>
-                        <span class="text-right text-on-surface-variant">All pets welcome</span>
-                    </li>
-                
-            </ul>
-        
-
-        <p class="text-sm leading-relaxed text-on-surface-variant">Combined facility with emergency triage, in-house x-rays, and rapid treatment for pet bites and snake encounters.</p>
-
+            <p class="text-sm leading-relaxed text-on-surface-variant">Full-service hospital with a 24/7 emergency room. For life-threatening emergencies, call 911.</p>
         
 
         
             <div class="flex items-center gap-2 pt-1">
-                <a href="tel:+15550911234"
+                <a href="tel:+12542022000"
                    class="flex min-h-[46px] flex-1 items-center justify-center gap-2 rounded-xl px-4 text-sm font-bold shadow-xs transition-all active:scale-[0.99] bg-error text-on-error hover:bg-error/90">
                     <span class="material-symbols-outlined text-[18px]" aria-hidden="true">call</span>
-                    Emergency Call (24/7)
+                    Call Hospital
                 </a>
-                <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Oak+Ridge+Urgent+Care%2C+Waco%2C+TX" target="_blank" rel="noopener" aria-label="Directions to Oak Ridge Urgent &amp; Vet"
+                <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Baylor+Scott+%26+White+%E2%80%93+Hillcrest%2C+100+Hillcrest+Medical+Blvd%2C+Waco%2C+TX" target="_blank" rel="noopener" aria-label="Directions to Baylor Scott &amp; White – Hillcrest"
                    class="flex min-h-[46px] min-w-[46px] items-center justify-center rounded-xl bg-surface-container text-primary transition-colors hover:bg-surface-container-high active:scale-95">
                     <span class="material-symbols-outlined text-[20px]" aria-hidden="true">directions</span>
                 </a>
@@ -370,18 +290,21 @@
     </div>
 </article>
 
-        
-    </div>
-
-    <aside class="flex items-start gap-3 rounded-2xl border border-outline-variant/40 bg-surface-container p-4">
-        <span class="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary-fixed text-primary">
-            <span class="material-symbols-outlined text-[18px]" aria-hidden="true">lightbulb</span>
-        </span>
-        <div class="min-w-0">
-            <p class="text-sm leading-snug font-bold text-primary">Need an RV tow or roadside help?</p>
-            <p class="mt-0.5 text-xs leading-relaxed text-on-surface-variant">Magnolia RV Resort has priority dispatch with Big Pine Towing. Call the Ranger Station (#0) on the gate intercom.</p>
+            
         </div>
-    </aside>
+    
+
+    
+        <aside class="flex items-start gap-3 rounded-2xl border border-outline-variant/40 bg-surface-container p-4">
+            <span class="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary-fixed text-primary">
+                <span class="material-symbols-outlined text-[18px]" aria-hidden="true">lightbulb</span>
+            </span>
+            <div class="min-w-0">
+                <p class="text-sm leading-snug font-bold text-primary">Need an RV repair or a tire fixed?</p>
+                <p class="mt-0.5 text-xs leading-relaxed text-on-surface-variant">Mobile RV repair, tire service and a mechanic are on the Sponsors tab, or call the office for help.</p>
+            </div>
+        </aside>
+    
 
     </main>
 
@@ -406,7 +329,7 @@
             
                 
                 
-                    <a href="nearby.html" aria-current="page" class="flex min-h-[44px] flex-1 flex-col items-center justify-center rounded-xl bg-primary-fixed/50 px-1 py-1.5 font-bold text-primary">
+                    <a href="index.html" aria-current="page" class="flex min-h-[44px] flex-1 flex-col items-center justify-center rounded-xl bg-primary-fixed/50 px-1 py-1.5 font-bold text-primary">
                         <span class="material-symbols-outlined icon-fill text-[22px]" aria-hidden="true">explore</span>
                         <span class="mt-0.5 text-[11px]">Nearby</span>
                     </a>

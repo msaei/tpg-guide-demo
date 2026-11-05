@@ -18,7 +18,7 @@
 
 
 
-<link rel="stylesheet" href="assets/css/tailwind.css">
+<link rel="stylesheet" href="assets/css/showcase.css">
 
 
 
@@ -59,7 +59,7 @@
 
     <form id="search-form" method="get" role="search" class="flex gap-2">
         <label class="sr-only" for="search-q">What are you looking for?</label>
-        <input id="search-q" type="search" name="q" value="" placeholder="Try “food”, “coffee”, “kayak”, “rv repair”…"
+        <input id="search-q" type="search" name="q" value="" placeholder="Try “bbq”, “donuts”, “museum”, “rv repair”…"
                class="min-w-0 flex-1 rounded-xl border border-outline-variant/40 bg-surface-container-low px-3.5 py-2.5 text-sm shadow-xs placeholder:text-on-surface-variant/70 focus:border-primary focus:outline-none">
         <button type="submit" class="flex shrink-0 items-center gap-1.5 rounded-xl bg-primary px-4 py-2.5 text-sm font-bold text-on-primary shadow-xs transition-all hover:bg-primary/90 active:scale-95">
             <span class="material-symbols-outlined text-[18px]" aria-hidden="true">search</span>
@@ -71,419 +71,35 @@
         <p id="search-summary" class="px-1 text-xs font-bold tracking-wider text-tertiary uppercase">All spots near the park</p>
     
 
-    <p class="px-1 text-xs text-on-surface-variant">Places, hours, and photos are sample data for this demo.</p>
+    <p class="px-1 text-xs text-on-surface-variant">Distances and drive times are estimates. Sponsor photos are stock images.</p>
 
     <div id="search-results" class="flex flex-col gap-4">
-        
-            <article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs">
-                
-                    <img src="assets/pages/images/guide/magnolia/pinecrest-nature-loop.jpg" alt="Pinecrest Nature Loop" class="mb-3 h-32 w-full rounded-xl object-cover">
-                
-                <div class="flex items-start justify-between gap-3">
-                    <div class="min-w-0">
-                        <p class="flex flex-wrap items-center gap-2">
-                            <span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">0.4 mi away</span>
-                            <span class="text-xs font-semibold text-secondary">Trails</span>
-                        </p>
-                        <h2 class="mt-1 font-headline text-lg leading-snug font-bold">Pinecrest Nature Loop</h2>
-                    </div>
-                    
-                </div>
-                <p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Gentle 2.2-mile pine-needle loop from the North Meadow, shaded, with three creek lookout decks and bird markers.</p>
-                
-                <div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant">
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Open until sunset</p>
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>2601 N University Parks Dr, Waco, TX</p>
-                    
-                </div>
-                <p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant">
-                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span>
-                    3 min drive
-                    <span aria-hidden="true">•</span>
-                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>
-                    About 60 min here
-                </p>
-            </article>
-        
-            <article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs">
-                
-                    <img src="assets/pages/images/guide/magnolia/magnolia-general-deli.jpg" alt="Magnolia General &amp; Deli" class="mb-3 h-32 w-full rounded-xl object-cover">
-                
-                <div class="flex items-start justify-between gap-3">
-                    <div class="min-w-0">
-                        <p class="flex flex-wrap items-center gap-2">
-                            <span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">0.8 mi away</span>
-                            <span class="text-xs font-semibold text-secondary">Eat</span>
-                        </p>
-                        <h2 class="mt-1 font-headline text-lg leading-snug font-bold">Magnolia General &amp; Deli</h2>
-                    </div>
-                    
-                </div>
-                <p class="mt-2 text-sm leading-relaxed text-on-surface-variant">The park-adjacent staple: hot deli sandwiches, fresh biscuits, ice, and every camp supply you forgot to pack.</p>
-                
-                <div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant">
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Open until 9:00 PM</p>
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>1 Magnolia Loop, Waco, TX</p>
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(555) 892-1102</p>
-                </div>
-                <p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant">
-                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span>
-                    4 min drive
-                    <span aria-hidden="true">•</span>
-                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>
-                    About 30 min here
-                </p>
-            </article>
-        
-            <article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs">
-                
-                <div class="flex items-start justify-between gap-3">
-                    <div class="min-w-0">
-                        <p class="flex flex-wrap items-center gap-2">
-                            <span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">1.2 mi away</span>
-                            <span class="text-xs font-semibold text-secondary">Shopping</span>
-                        </p>
-                        <h2 class="mt-1 font-headline text-lg leading-snug font-bold">Magnolia Farmers Market</h2>
-                    </div>
-                    
-                </div>
-                <p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Saturday-morning market with local makers, baked goods, fresh-cut flowers, and handmade gifts under the oaks.</p>
-                
-                <div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant">
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Saturdays 8:00 AM - 1:00 PM</p>
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>400 Franklin Ave, Waco, TX</p>
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(254) 555-0126</p>
-                </div>
-                <p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant">
-                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span>
-                    5 min drive
-                    <span aria-hidden="true">•</span>
-                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>
-                    About 45 min here
-                </p>
-            </article>
-        
-            <article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs">
-                
-                    <img src="assets/pages/images/guide/magnolia/timber-creek-kayaks.jpg" alt="Timber Creek Kayaks" class="mb-3 h-32 w-full rounded-xl object-cover">
-                
-                <div class="flex items-start justify-between gap-3">
-                    <div class="min-w-0">
-                        <p class="flex flex-wrap items-center gap-2">
-                            <span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">1.5 mi away</span>
-                            <span class="text-xs font-semibold text-secondary">Water &amp; Paddle Sports</span>
-                        </p>
-                        <h2 class="mt-1 font-headline text-lg leading-snug font-bold">Timber Creek Kayaks</h2>
-                    </div>
-                    
-                </div>
-                <p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Flatwater canoe and paddleboard launches along protected cypress creeks. Resort shuttle picks up at Gate B every hour.</p>
-                
-                <div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant">
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Open until 6:00 PM</p>
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>88 University Parks Dr, Waco, TX</p>
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(254) 555-0137</p>
-                </div>
-                <p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant">
-                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span>
-                    6 min drive
-                    <span aria-hidden="true">•</span>
-                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>
-                    About 120 min here
-                </p>
-            </article>
-        
-            <article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs">
-                
-                    <img src="assets/pages/images/guide/magnolia/blackwood-propane-firewood.jpg" alt="Blackwood Propane &amp; Firewood" class="mb-3 h-32 w-full rounded-xl object-cover">
-                
-                <div class="flex items-start justify-between gap-3">
-                    <div class="min-w-0">
-                        <p class="flex flex-wrap items-center gap-2">
-                            <span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">1.9 mi away</span>
-                            <span class="text-xs font-semibold text-secondary">Services</span>
-                        </p>
-                        <h2 class="mt-1 font-headline text-lg leading-snug font-bold">Blackwood Propane &amp; Firewood</h2>
-                    </div>
-                    
-                </div>
-                <p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Propane refills by the gallon and kiln-dried firewood bundles, loaded into your truck for you.</p>
-                
-                <div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant">
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Open until 6:00 PM</p>
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>12 Bosque Blvd, Waco, TX</p>
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(555) 620-9811</p>
-                </div>
-                <p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant">
-                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span>
-                    6 min drive
-                    <span aria-hidden="true">•</span>
-                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>
-                    About 15 min here
-                </p>
-            </article>
-        
-            <article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs">
-                
-                    <img src="assets/pages/images/guide/magnolia/pine-valley-farm-stand.jpg" alt="Pine Valley Farm Stand" class="mb-3 h-32 w-full rounded-xl object-cover">
-                
-                <div class="flex items-start justify-between gap-3">
-                    <div class="min-w-0">
-                        <p class="flex flex-wrap items-center gap-2">
-                            <span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">2.1 mi away</span>
-                            <span class="text-xs font-semibold text-secondary">Provisions</span>
-                        </p>
-                        <h2 class="mt-1 font-headline text-lg leading-snug font-bold">Pine Valley Farm Stand</h2>
-                    </div>
-                    
-                </div>
-                <p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Fourth-generation family market: fresh produce, sourdough, wildflower honey, and kiln-dried camp firewood.</p>
-                
-                <div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant">
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Open until 7:00 PM</p>
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>212 Valley Mills Dr, Waco, TX</p>
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(254) 555-0119</p>
-                </div>
-                <p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant">
-                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span>
-                    7 min drive
-                    <span aria-hidden="true">•</span>
-                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>
-                    About 30 min here
-                </p>
-            </article>
-        
-            <article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs">
-                
-                <div class="flex items-start justify-between gap-3">
-                    <div class="min-w-0">
-                        <p class="flex flex-wrap items-center gap-2">
-                            <span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">2.2 mi away</span>
-                            <span class="text-xs font-semibold text-secondary">Services</span>
-                        </p>
-                        <h2 class="mt-1 font-headline text-lg leading-snug font-bold">Brazos Breeze Laundromat</h2>
-                    </div>
-                    
-                </div>
-                <p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Clean, attended laundromat with oversized washers for bedding and a folding service if you would rather be at the beach.</p>
-                
-                <div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant">
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Open until 10:00 PM</p>
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>305 La Salle Ave, Waco, TX</p>
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(254) 555-0155</p>
-                </div>
-                <p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant">
-                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span>
-                    7 min drive
-                    <span aria-hidden="true">•</span>
-                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>
-                    About 60 min here
-                </p>
-            </article>
-        
-            <article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs">
-                
-                <div class="flex items-start justify-between gap-3">
-                    <div class="min-w-0">
-                        <p class="flex flex-wrap items-center gap-2">
-                            <span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">2.6 mi away</span>
-                            <span class="text-xs font-semibold text-secondary">Eat</span>
-                        </p>
-                        <h2 class="mt-1 font-headline text-lg leading-snug font-bold">Riverside Bakery &amp; Café</h2>
-                    </div>
-                    
-                </div>
-                <p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Small-batch bakery with strong coffee, cinnamon rolls the size of a plate, and fast Wi-Fi in the corner booths.</p>
-                
-                <div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant">
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Open until 3:00 PM</p>
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>9 Bagby Ave, Waco, TX</p>
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(254) 555-0148</p>
-                </div>
-                <p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant">
-                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span>
-                    8 min drive
-                    <span aria-hidden="true">•</span>
-                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>
-                    About 45 min here
-                </p>
-            </article>
-        
-            <article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs">
-                
-                    <img src="assets/pages/images/guide/magnolia/pine-valley-rv-tech.jpg" alt="Pine Valley RV Tech" class="mb-3 h-32 w-full rounded-xl object-cover">
-                
-                <div class="flex items-start justify-between gap-3">
-                    <div class="min-w-0">
-                        <p class="flex flex-wrap items-center gap-2">
-                            <span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">2.8 mi away</span>
-                            <span class="text-xs font-semibold text-secondary">Services</span>
-                        </p>
-                        <h2 class="mt-1 font-headline text-lg leading-snug font-bold">Pine Valley RV Tech</h2>
-                    </div>
-                    
-                </div>
-                <p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Mobile RV repair that comes to your site: AC, plumbing, tires, and electrical. Same-day slots most days.</p>
-                
-                <div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant">
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Open until 6:00 PM</p>
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>540 Speegleville Rd, Waco, TX</p>
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(555) 412-9983</p>
-                </div>
-                <p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant">
-                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span>
-                    9 min drive
-                    <span aria-hidden="true">•</span>
-                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>
-                    About 60 min here
-                </p>
-            </article>
-        
-            <article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs">
-                
-                <div class="flex items-start justify-between gap-3">
-                    <div class="min-w-0">
-                        <p class="flex flex-wrap items-center gap-2">
-                            <span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">3.1 mi away</span>
-                            <span class="text-xs font-semibold text-secondary">Activities</span>
-                        </p>
-                        <h2 class="mt-1 font-headline text-lg leading-snug font-bold">Brazos Bike Rentals</h2>
-                    </div>
-                    
-                </div>
-                <p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Beach cruisers and e-bikes by the hour or day, delivered to the park gate. Helmets and locks included.</p>
-                
-                <div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant">
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Open until 7:00 PM</p>
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>17 S University Parks Dr, Waco, TX</p>
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(254) 555-0173</p>
-                </div>
-                <p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant">
-                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span>
-                    9 min drive
-                    <span aria-hidden="true">•</span>
-                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>
-                    About 90 min here
-                </p>
-            </article>
-        
-            <article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs">
-                
-                    <img src="assets/pages/images/guide/magnolia/ridgeview-brewery.jpg" alt="Ridgeview Craft Brewery &amp; Smokehouse" class="mb-3 h-32 w-full rounded-xl object-cover">
-                
-                <div class="flex items-start justify-between gap-3">
-                    <div class="min-w-0">
-                        <p class="flex flex-wrap items-center gap-2">
-                            <span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">3.4 mi away</span>
-                            <span class="text-xs font-semibold text-secondary">Eat</span>
-                        </p>
-                        <h2 class="mt-1 font-headline text-lg leading-snug font-bold">Ridgeview Craft Brewery &amp; Smokehouse</h2>
-                    </div>
-                    
-                </div>
-                <p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Craft beers and slow-smoked barbecue in an outdoor beer garden with string lights and live music on weekends.</p>
-                
-                <div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant">
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Open until 11:00 PM</p>
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>77 Waco Dr, Waco, TX</p>
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(555) 331-9042</p>
-                </div>
-                <p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant">
-                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span>
-                    10 min drive
-                    <span aria-hidden="true">•</span>
-                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>
-                    About 90 min here
-                </p>
-            </article>
-        
-            <article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs">
-                
-                <div class="flex items-start justify-between gap-3">
-                    <div class="min-w-0">
-                        <p class="flex flex-wrap items-center gap-2">
-                            <span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">3.8 mi away</span>
-                            <span class="text-xs font-semibold text-secondary">Beach &amp; Outdoors</span>
-                        </p>
-                        <h2 class="mt-1 font-headline text-lg leading-snug font-bold">Lake Waco Beach &amp; Pier</h2>
-                    </div>
-                    
-                </div>
-                <p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Sandy swim beach on Lake Waco with a fishing pier, lifeguards in season, and the best sunset view over the water.</p>
-                
-                <div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant">
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Open until 8:00 PM</p>
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>101 Lake Shore Dr, Waco, TX</p>
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(254) 555-0164</p>
-                </div>
-                <p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant">
-                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span>
-                    11 min drive
-                    <span aria-hidden="true">•</span>
-                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>
-                    About 120 min here
-                </p>
-            </article>
-        
-            <article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs">
-                
-                <div class="flex items-start justify-between gap-3">
-                    <div class="min-w-0">
-                        <p class="flex flex-wrap items-center gap-2">
-                            <span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">4.2 mi away</span>
-                            <span class="text-xs font-semibold text-secondary">Shopping</span>
-                        </p>
-                        <h2 class="mt-1 font-headline text-lg leading-snug font-bold">Bluewater Bait &amp; Tackle</h2>
-                    </div>
-                    
-                </div>
-                <p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Live bait, rod rentals, fishing licenses, and straight answers on what is biting off the pier this week.</p>
-                
-                <div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant">
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Open until 8:00 PM</p>
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>230 Airport Rd, Waco, TX</p>
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(254) 555-0191</p>
-                </div>
-                <p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant">
-                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span>
-                    12 min drive
-                    <span aria-hidden="true">•</span>
-                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>
-                    About 30 min here
-                </p>
-            </article>
-        
-            <article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs">
-                
-                <div class="flex items-start justify-between gap-3">
-                    <div class="min-w-0">
-                        <p class="flex flex-wrap items-center gap-2">
-                            <span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">6.0 mi away</span>
-                            <span class="text-xs font-semibold text-secondary">Emergency</span>
-                        </p>
-                        <h2 class="mt-1 font-headline text-lg leading-snug font-bold">Oak Ridge Urgent &amp; Vet</h2>
-                    </div>
-                    
-                </div>
-                <p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Combined urgent care and emergency veterinary hospital, open 24/7. Walk-ins welcome, no appointment needed.</p>
-                
-                <div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant">
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Open 24 hours</p>
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>900 Imperial Dr, Waco, TX</p>
-                    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(555) 091-1234</p>
-                </div>
-                <p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant">
-                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span>
-                    14 min drive
-                    <span aria-hidden="true">•</span>
-                    <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>
-                    About 45 min here
-                </p>
-            </article>
-        
+<article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs"><img src="assets/pages/images/guide/magnolia/lupitas-taqueria.jpg" alt="" class="mb-3 h-32 w-full rounded-xl object-cover"><div class="flex items-start justify-between gap-3"><div class="min-w-0"><p class="flex flex-wrap items-center gap-2"><span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">0.4 mi away</span><span class="text-xs font-semibold text-secondary">Sponsor · Eat</span></p><h2 class="mt-1 font-headline text-lg leading-snug font-bold">Lupita&#x27;s Taqueria</h2></div></div><p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Mexican taqueria with tacos and plates, just up I-35.</p><div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant"><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>5150 I-35 N Frontage Rd, Waco, TX</p></div><p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span> 4 min drive <span aria-hidden="true">•</span> <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span> About 60 min here</p></article>
+<article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs"><img src="assets/pages/images/guide/magnolia/christis-burgers.jpg" alt="" class="mb-3 h-32 w-full rounded-xl object-cover"><div class="flex items-start justify-between gap-3"><div class="min-w-0"><p class="flex flex-wrap items-center gap-2"><span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">1.5 mi away</span><span class="text-xs font-semibold text-secondary">Sponsor · Eat</span></p><h2 class="mt-1 font-headline text-lg leading-snug font-bold">Christi&#x27;s Burgers</h2></div></div><p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Hometown burger joint for burgers and fries.</p><div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant"><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>3101 Beale St, Ste A, Waco, TX</p></div><p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span> 6 min drive <span aria-hidden="true">•</span> <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span> About 60 min here</p></article>
+<article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs"><img src="assets/pages/images/guide/magnolia/daves-burger-barn.jpg" alt="" class="mb-3 h-32 w-full rounded-xl object-cover"><div class="flex items-start justify-between gap-3"><div class="min-w-0"><p class="flex flex-wrap items-center gap-2"><span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">1.5 mi away</span><span class="text-xs font-semibold text-secondary">Sponsor · Eat</span></p><h2 class="mt-1 font-headline text-lg leading-snug font-bold">Dave&#x27;s Burger Barn</h2></div></div><p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Burgers and shakes, dine-in, takeout and catering.</p><div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant"><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>600 N Patricia St, Waco, TX</p><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(254) 867-8000</p></div><p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span> 6 min drive <span aria-hidden="true">•</span> <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span> About 60 min here</p></article>
+<article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs"><img src="assets/pages/images/guide/magnolia/jm-tire-service.jpg" alt="" class="mb-3 h-32 w-full rounded-xl object-cover"><div class="flex items-start justify-between gap-3"><div class="min-w-0"><p class="flex flex-wrap items-center gap-2"><span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">1.5 mi away</span><span class="text-xs font-semibold text-secondary">Sponsor · Services</span></p><h2 class="mt-1 font-headline text-lg leading-snug font-bold">J&amp;M Tire Service</h2></div></div><p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Tire repair and replacement on Lacy Drive.</p><div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant"><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>208 N Lacy Dr, Waco, TX</p></div><p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span> 6 min drive <span aria-hidden="true">•</span> <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span> About 45 min here</p></article>
+<article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs"><img src="assets/pages/images/guide/magnolia/rockys-roadhouse.jpg" alt="" class="mb-3 h-32 w-full rounded-xl object-cover"><div class="flex items-start justify-between gap-3"><div class="min-w-0"><p class="flex flex-wrap items-center gap-2"><span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">1.5 mi away</span><span class="text-xs font-semibold text-secondary">Sponsor · Things to Do</span></p><h2 class="mt-1 font-headline text-lg leading-snug font-bold">Rocky&#x27;s Roadhouse</h2></div></div><p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Neighborhood bar for a drink after a day on the road.</p><div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant"><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>926 S Lacy Dr, Waco, TX</p></div><p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span> 6 min drive <span aria-hidden="true">•</span> <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span> About 90 min here</p></article>
+<article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs"><img src="assets/pages/images/guide/magnolia/heitmiller-steakhouse.jpg" alt="" class="mb-3 h-32 w-full rounded-xl object-cover"><div class="flex items-start justify-between gap-3"><div class="min-w-0"><p class="flex flex-wrap items-center gap-2"><span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">1.7 mi away</span><span class="text-xs font-semibold text-secondary">Sponsor · Eat</span></p><h2 class="mt-1 font-headline text-lg leading-snug font-bold">Heitmiller Steakhouse</h2></div></div><p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Steakhouse on I-35 for a sit-down steak dinner.</p><div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant"><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>4509 I-35 N Frontage Rd, Lacy Lakeview, TX</p><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(254) 867-1400</p></div><p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span> 6 min drive <span aria-hidden="true">•</span> <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span> About 60 min here</p></article>
+<article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs"><img src="assets/pages/images/guide/magnolia/specs.jpg" alt="" class="mb-3 h-32 w-full rounded-xl object-cover"><div class="flex items-start justify-between gap-3"><div class="min-w-0"><p class="flex flex-wrap items-center gap-2"><span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">1.7 mi away</span><span class="text-xs font-semibold text-secondary">Sponsor · Shop</span></p><h2 class="mt-1 font-headline text-lg leading-snug font-bold">Spec&#x27;s Wines, Spirits &amp; Finer Foods</h2></div></div><p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Wine, beer, spirits and snacks.</p><div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant"><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>715 New Dallas Hwy, Lacy Lakeview, TX</p><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(254) 799-5390</p></div><p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span> 6 min drive <span aria-hidden="true">•</span> <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span> About 30 min here</p></article>
+<article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs"><img src="assets/pages/images/guide/magnolia/mobile-mechanic.jpg" alt="" class="mb-3 h-32 w-full rounded-xl object-cover"><div class="flex items-start justify-between gap-3"><div class="min-w-0"><p class="flex flex-wrap items-center gap-2"><span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">1.8 mi away</span><span class="text-xs font-semibold text-secondary">Sponsor · Services</span></p><h2 class="mt-1 font-headline text-lg leading-snug font-bold">Mobile Mechanic Services</h2></div></div><p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Auto repair for cars and trucks.</p><div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant"><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>2405 J J Flewellen Rd, Waco, TX</p></div><p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span> 7 min drive <span aria-hidden="true">•</span> <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span> About 45 min here</p></article>
+<article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs"><img src="assets/pages/images/guide/magnolia/shipley-donuts.jpg" alt="" class="mb-3 h-32 w-full rounded-xl object-cover"><div class="flex items-start justify-between gap-3"><div class="min-w-0"><p class="flex flex-wrap items-center gap-2"><span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">1.8 mi away</span><span class="text-xs font-semibold text-secondary">Sponsor · Eat</span></p><h2 class="mt-1 font-headline text-lg leading-snug font-bold">Shipley Do-Nuts</h2></div></div><p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Glazed donuts and kolaches for an early breakfast.</p><div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant"><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>600 N Loop 340, Ste 106, Bellmead, TX</p><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(254) 412-0022</p></div><p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span> 7 min drive <span aria-hidden="true">•</span> <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span> About 60 min here</p></article>
+<article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs"><div class="flex items-start justify-between gap-3"><div class="min-w-0"><p class="flex flex-wrap items-center gap-2"><span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">2.7 mi away</span><span class="text-xs font-semibold text-secondary">Trails</span></p><h2 class="mt-1 font-headline text-lg leading-snug font-bold">Cameron Park</h2></div></div><p class="mt-2 text-sm leading-relaxed text-on-surface-variant">A 416-acre city park along the Brazos River with more than 20 miles of hiking and biking trails, picnic areas and a disc golf course.</p><div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant"><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Free • 6 AM – midnight</p><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>2601 N University Parks Dr, Waco, TX</p></div><p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span> 8 min drive <span aria-hidden="true">•</span> <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span> About 90 min here</p></article>
+<article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs"><img src="assets/pages/images/guide/magnolia/dominos-pizza.jpg" alt="" class="mb-3 h-32 w-full rounded-xl object-cover"><div class="flex items-start justify-between gap-3"><div class="min-w-0"><p class="flex flex-wrap items-center gap-2"><span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">2.7 mi away</span><span class="text-xs font-semibold text-secondary">Sponsor · Eat</span></p><h2 class="mt-1 font-headline text-lg leading-snug font-bold">Domino&#x27;s Pizza</h2></div></div><p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Pizza for pickup or delivery to your site.</p><div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant"><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>700 N Loop 340, Waco, TX</p><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(254) 799-3030</p></div><p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span> 8 min drive <span aria-hidden="true">•</span> <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span> About 60 min here</p></article>
+<article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs"><img src="assets/pages/images/guide/magnolia/el-conquistador.jpg" alt="" class="mb-3 h-32 w-full rounded-xl object-cover"><div class="flex items-start justify-between gap-3"><div class="min-w-0"><p class="flex flex-wrap items-center gap-2"><span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">2.7 mi away</span><span class="text-xs font-semibold text-secondary">Sponsor · Eat</span></p><h2 class="mt-1 font-headline text-lg leading-snug font-bold">El Conquistador</h2></div></div><p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Tex-Mex restaurant on Loop 340.</p><div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant"><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>901 N Loop 340, Waco, TX</p><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(254) 799-6655</p></div><p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span> 8 min drive <span aria-hidden="true">•</span> <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span> About 60 min here</p></article>
+<article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs"><div class="flex items-start justify-between gap-3"><div class="min-w-0"><p class="flex flex-wrap items-center gap-2"><span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">2.8 mi away</span><span class="text-xs font-semibold text-secondary">Water &amp; Outdoors</span></p><h2 class="mt-1 font-headline text-lg leading-snug font-bold">Waco Suspension Bridge &amp; Riverwalk</h2></div></div><p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Walk the 1870 suspension bridge over the Brazos River, then follow the lighted Riverwalk trail along both banks.</p><div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant"><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Free • Open daily</p><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>101 N University Parks Dr, Waco, TX</p></div><p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span> 9 min drive <span aria-hidden="true">•</span> <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span> About 60 min here</p></article>
+<article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs"><img src="assets/pages/images/guide/magnolia/dr-pepper-museum.jpg" alt="" class="mb-3 h-32 w-full rounded-xl object-cover"><div class="flex items-start justify-between gap-3"><div class="min-w-0"><p class="flex flex-wrap items-center gap-2"><span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">3.2 mi away</span><span class="text-xs font-semibold text-secondary">Sponsor · Things to Do</span></p><h2 class="mt-1 font-headline text-lg leading-snug font-bold">Dr Pepper Museum</h2></div></div><p class="mt-2 text-sm leading-relaxed text-on-surface-variant">The history of Dr Pepper in the building where it was first bottled.</p><div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant"><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>300 S 5th St, Waco, TX</p><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(254) 757-1025</p></div><p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span> 9 min drive <span aria-hidden="true">•</span> <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span> About 90 min here</p></article>
+<article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs"><div class="flex items-start justify-between gap-3"><div class="min-w-0"><p class="flex flex-wrap items-center gap-2"><span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">3.5 mi away</span><span class="text-xs font-semibold text-secondary">Activities</span></p><h2 class="mt-1 font-headline text-lg leading-snug font-bold">Magnolia Market at the Silos</h2></div></div><p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Chip and Joanna Gaines&#x27;s shops, bakery and garden around the historic silos in downtown Waco. Closed Sundays.</p><div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant"><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>Mon – Sat 9 AM – 6 PM</p><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>601 Webster Ave, Waco, TX</p><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(254) 235-0603</p></div><p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span> 10 min drive <span aria-hidden="true">•</span> <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span> About 120 min here</p></article>
+<article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs"><img src="assets/pages/images/guide/magnolia/terry-blacks-barbecue.jpg" alt="" class="mb-3 h-32 w-full rounded-xl object-cover"><div class="flex items-start justify-between gap-3"><div class="min-w-0"><p class="flex flex-wrap items-center gap-2"><span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">3.5 mi away</span><span class="text-xs font-semibold text-secondary">Sponsor · Eat</span></p><h2 class="mt-1 font-headline text-lg leading-snug font-bold">Terry Black&#x27;s Barbecue</h2></div></div><p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Central Texas barbecue in downtown Waco: brisket, ribs and sausage by the pound.</p><div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant"><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>228 S 8th St, Waco, TX</p><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(254) 300-5690</p></div><p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span> 10 min drive <span aria-hidden="true">•</span> <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span> About 60 min here</p></article>
+<article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs"><img src="assets/pages/images/guide/magnolia/broken-g-bbq.jpg" alt="" class="mb-3 h-32 w-full rounded-xl object-cover"><div class="flex items-start justify-between gap-3"><div class="min-w-0"><p class="flex flex-wrap items-center gap-2"><span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">3.9 mi away</span><span class="text-xs font-semibold text-secondary">Sponsor · Eat</span></p><h2 class="mt-1 font-headline text-lg leading-snug font-bold">Broken G BBQ</h2></div></div><p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Local barbecue spot in Lacy Lakeview.</p><div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant"><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>417 N Lacy Dr, Lacy Lakeview, TX</p></div><p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span> 11 min drive <span aria-hidden="true">•</span> <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span> About 60 min here</p></article>
+<article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs"><img src="assets/pages/images/guide/magnolia/xpress-laundry.jpg" alt="" class="mb-3 h-32 w-full rounded-xl object-cover"><div class="flex items-start justify-between gap-3"><div class="min-w-0"><p class="flex flex-wrap items-center gap-2"><span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">4.9 mi away</span><span class="text-xs font-semibold text-secondary">Sponsor · Services</span></p><h2 class="mt-1 font-headline text-lg leading-snug font-bold">Xpress Laundry</h2></div></div><p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Self-service laundromat with wash &amp; fold and pickup.</p><div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant"><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>202 E Crest Dr, Waco, TX</p><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(254) 304-0949</p></div><p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span> 13 min drive <span aria-hidden="true">•</span> <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span> About 45 min here</p></article>
+<article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs"><img src="assets/pages/images/guide/magnolia/a1-truck-wash.jpg" alt="" class="mb-3 h-32 w-full rounded-xl object-cover"><div class="flex items-start justify-between gap-3"><div class="min-w-0"><p class="flex flex-wrap items-center gap-2"><span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">7.1 mi away</span><span class="text-xs font-semibold text-secondary">Sponsor · Services</span></p><h2 class="mt-1 font-headline text-lg leading-snug font-bold">American A1 Truck Wash</h2></div></div><p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Truck and RV wash just north on I-35.</p><div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant"><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>1172 S Connally Dr, Elm Mott, TX</p><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(254) 829-6016</p></div><p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span> 17 min drive <span aria-hidden="true">•</span> <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span> About 45 min here</p></article>
+<article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs"><img src="assets/pages/images/guide/magnolia/waco-mammoth.jpg" alt="" class="mb-3 h-32 w-full rounded-xl object-cover"><div class="flex items-start justify-between gap-3"><div class="min-w-0"><p class="flex flex-wrap items-center gap-2"><span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">7.1 mi away</span><span class="text-xs font-semibold text-secondary">Sponsor · Things to Do</span></p><h2 class="mt-1 font-headline text-lg leading-snug font-bold">Waco Mammoth National Monument</h2></div></div><p class="mt-2 text-sm leading-relaxed text-on-surface-variant">See fossil mammoths where they were found, now a national monument.</p><div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant"><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>6220 Steinbeck Bend Dr, Waco, TX</p><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(254) 750-7946</p></div><p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span> 17 min drive <span aria-hidden="true">•</span> <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span> About 90 min here</p></article>
+<article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs"><img src="assets/pages/images/guide/magnolia/dees-donuts.jpg" alt="" class="mb-3 h-32 w-full rounded-xl object-cover"><div class="flex items-start justify-between gap-3"><div class="min-w-0"><p class="flex flex-wrap items-center gap-2"><span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">7.5 mi away</span><span class="text-xs font-semibold text-secondary">Sponsor · Eat</span></p><h2 class="mt-1 font-headline text-lg leading-snug font-bold">Dee&#x27;s Deelicious Donuts &amp; Lunch</h2></div></div><p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Donut shop in Elm Mott for breakfast and lunch.</p><div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant"><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>104 W Elm Mott Dr, Elm Mott, TX</p></div><p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span> 18 min drive <span aria-hidden="true">•</span> <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span> About 60 min here</p></article>
+<article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs"><img src="assets/pages/images/guide/magnolia/affordable-rv-repair.jpg" alt="" class="mb-3 h-32 w-full rounded-xl object-cover"><div class="flex items-start justify-between gap-3"><div class="min-w-0"><p class="flex flex-wrap items-center gap-2"><span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">8.7 mi away</span><span class="text-xs font-semibold text-secondary">Sponsor · Services</span></p><h2 class="mt-1 font-headline text-lg leading-snug font-bold">Affordable RV Repair and Mobile Service</h2></div></div><p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Mobile RV repair that can come to your site.</p><div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant"><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>354 N Rock Creek Rd, Waco, TX</p></div><p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span> 20 min drive <span aria-hidden="true">•</span> <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span> About 45 min here</p></article>
+<article class="overflow-hidden rounded-2xl border border-outline-variant/30 bg-surface-container-low p-4 shadow-xs"><div class="flex items-start justify-between gap-3"><div class="min-w-0"><p class="flex flex-wrap items-center gap-2"><span class="rounded-full bg-surface-container px-2 py-0.5 text-xs font-bold text-primary">9.5 mi away</span><span class="text-xs font-semibold text-secondary">Emergency</span></p><h2 class="mt-1 font-headline text-lg leading-snug font-bold">Baylor Scott &amp; White – Hillcrest</h2></div></div><p class="mt-2 text-sm leading-relaxed text-on-surface-variant">Full-service hospital with a 24/7 emergency room. For life-threatening emergencies, call 911.</p><div class="mt-2 space-y-1 text-xs font-semibold text-on-surface-variant"><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span>24/7 Emergency Room</p><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">location_on</span>100 Hillcrest Medical Blvd, Waco, TX</p><p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">call</span>(254) 202-2000</p></div><p class="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-on-surface-variant"><span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">directions_car</span> 22 min drive <span aria-hidden="true">•</span> <span class="material-symbols-outlined text-[15px] text-primary" aria-hidden="true">schedule</span> About 60 min here</p></article>
     </div>
 
-    <script>window.SHOWCASE_PLACES = [{"name": "Lake Waco Beach & Pier", "category_label": "Beach & Outdoors", "distance_mi": 3.8, "drive_min": 11, "visit_min": 120, "plan": true, "priority": 1, "keywords": "beach swim lake sand sunset pier fishing water", "blurb": "Sandy swim beach on Lake Waco with a fishing pier, lifeguards in season, and the best sunset view over the water.", "rating": null, "reviews": null, "price": "$", "hours": "Open until 8:00 PM", "phone": "(254) 555-0164", "address": "101 Lake Shore Dr, Waco, TX", "x": 16, "y": 46, "lat": 31.535, "lng": -97.215, "image": ""}, {"name": "Timber Creek Kayaks", "category_label": "Water & Paddle Sports", "distance_mi": 1.5, "drive_min": 6, "visit_min": 120, "plan": true, "priority": 2, "keywords": "kayak paddle canoe boat water river rental creek sup", "blurb": "Flatwater canoe and paddleboard launches along protected cypress creeks. Resort shuttle picks up at Gate B every hour.", "rating": null, "reviews": null, "price": "$$", "hours": "Open until 6:00 PM", "phone": "(254) 555-0137", "address": "88 University Parks Dr, Waco, TX", "image": "pages/images/guide/magnolia/timber-creek-kayaks.jpg", "x": 36, "y": 28, "lat": 31.578, "lng": -97.16}, {"name": "Pinecrest Nature Loop", "category_label": "Trails", "distance_mi": 0.4, "drive_min": 3, "visit_min": 60, "plan": true, "priority": 3, "keywords": "trail hike walk nature birds forest loop dog stroller", "blurb": "Gentle 2.2-mile pine-needle loop from the North Meadow, shaded, with three creek lookout decks and bird markers.", "rating": null, "reviews": null, "price": "Free", "hours": "Open until sunset", "phone": "", "address": "2601 N University Parks Dr, Waco, TX", "image": "pages/images/guide/magnolia/pinecrest-nature-loop.jpg", "x": 58, "y": 34, "lat": 31.566, "lng": -97.168}, {"name": "Pine Valley Farm Stand", "category_label": "Provisions", "distance_mi": 2.1, "drive_min": 7, "visit_min": 30, "plan": true, "priority": 4, "keywords": "groceries produce farm food honey firewood market shopping fresh eggs", "blurb": "Fourth-generation family market: fresh produce, sourdough, wildflower honey, and kiln-dried camp firewood.", "rating": null, "reviews": null, "price": "$", "hours": "Open until 7:00 PM", "phone": "(254) 555-0119", "address": "212 Valley Mills Dr, Waco, TX", "image": "pages/images/guide/magnolia/pine-valley-farm-stand.jpg", "x": 68, "y": 26, "lat": 31.575, "lng": -97.145}, {"name": "Brazos Bike Rentals", "category_label": "Activities", "distance_mi": 3.1, "drive_min": 9, "visit_min": 90, "plan": true, "priority": 5, "keywords": "bike rental cycling beach cruiser ride", "blurb": "Beach cruisers and e-bikes by the hour or day, delivered to the park gate. Helmets and locks included.", "rating": null, "reviews": null, "price": "$$", "hours": "Open until 7:00 PM", "phone": "(254) 555-0173", "address": "17 S University Parks Dr, Waco, TX", "x": 30, "y": 60, "lat": 31.552, "lng": -97.135, "image": ""}, {"name": "Magnolia Farmers Market", "category_label": "Shopping", "distance_mi": 1.2, "drive_min": 5, "visit_min": 45, "plan": true, "priority": 6, "keywords": "market local crafts produce gifts saturday shopping souvenirs", "blurb": "Saturday-morning market with local makers, baked goods, fresh-cut flowers, and handmade gifts under the oaks.", "rating": null, "reviews": null, "price": "$", "hours": "Saturdays 8:00 AM - 1:00 PM", "phone": "(254) 555-0126", "address": "400 Franklin Ave, Waco, TX", "x": 60, "y": 64, "lat": 31.551, "lng": -97.162, "image": ""}, {"name": "Ridgeview Craft Brewery & Smokehouse", "category_label": "Eat", "distance_mi": 3.4, "drive_min": 10, "visit_min": 90, "plan": true, "priority": 7, "keywords": "beer brewery bbq smokehouse dinner food drinks restaurant live music", "blurb": "Craft beers and slow-smoked barbecue in an outdoor beer garden with string lights and live music on weekends.", "rating": null, "reviews": null, "price": "$$", "hours": "Open until 11:00 PM", "phone": "(555) 331-9042", "address": "77 Waco Dr, Waco, TX", "image": "pages/images/guide/magnolia/ridgeview-brewery.jpg", "x": 74, "y": 50, "lat": 31.585, "lng": -97.128}, {"name": "Riverside Bakery & Caf\u00e9", "category_label": "Eat", "distance_mi": 2.6, "drive_min": 8, "visit_min": 45, "plan": true, "priority": 8, "keywords": "coffee bakery breakfast pastries cafe wifi espresso", "blurb": "Small-batch bakery with strong coffee, cinnamon rolls the size of a plate, and fast Wi-Fi in the corner booths.", "rating": null, "reviews": null, "price": "$", "hours": "Open until 3:00 PM", "phone": "(254) 555-0148", "address": "9 Bagby Ave, Waco, TX", "x": 64, "y": 72, "lat": 31.543, "lng": -97.14, "image": ""}, {"name": "Bluewater Bait & Tackle", "category_label": "Shopping", "distance_mi": 4.2, "drive_min": 12, "visit_min": 30, "plan": true, "priority": 9, "keywords": "fishing bait tackle gear beach supplies rods licenses", "blurb": "Live bait, rod rentals, fishing licenses, and straight answers on what is biting off the pier this week.", "rating": null, "reviews": null, "price": "$", "hours": "Open until 8:00 PM", "phone": "(254) 555-0191", "address": "230 Airport Rd, Waco, TX", "x": 22, "y": 68, "lat": 31.53, "lng": -97.225, "image": ""}, {"name": "Magnolia General & Deli", "category_label": "Eat", "distance_mi": 0.8, "drive_min": 4, "visit_min": 30, "plan": true, "priority": 10, "keywords": "food deli sandwich groceries store supplies breakfast lunch ice", "blurb": "The park-adjacent staple: hot deli sandwiches, fresh biscuits, ice, and every camp supply you forgot to pack.", "rating": null, "reviews": null, "price": "$", "hours": "Open until 9:00 PM", "phone": "(555) 892-1102", "address": "1 Magnolia Loop, Waco, TX", "image": "pages/images/guide/magnolia/magnolia-general-deli.jpg", "x": 54, "y": 48, "lat": 31.556, "lng": -97.166}, {"name": "Pine Valley RV Tech", "category_label": "Services", "distance_mi": 2.8, "drive_min": 9, "visit_min": 60, "plan": false, "priority": 99, "keywords": "rv repair mechanic tire service fix ac plumbing emergency", "blurb": "Mobile RV repair that comes to your site: AC, plumbing, tires, and electrical. Same-day slots most days.", "rating": null, "reviews": null, "price": "$$", "hours": "Open until 6:00 PM", "phone": "(555) 412-9983", "address": "540 Speegleville Rd, Waco, TX", "image": "pages/images/guide/magnolia/pine-valley-rv-tech.jpg", "x": 72, "y": 38, "lat": 31.582, "lng": -97.15}, {"name": "Blackwood Propane & Firewood", "category_label": "Services", "distance_mi": 1.9, "drive_min": 6, "visit_min": 15, "plan": false, "priority": 99, "keywords": "propane firewood supplies refill tank wood", "blurb": "Propane refills by the gallon and kiln-dried firewood bundles, loaded into your truck for you.", "rating": null, "reviews": null, "price": "$", "hours": "Open until 6:00 PM", "phone": "(555) 620-9811", "address": "12 Bosque Blvd, Waco, TX", "image": "pages/images/guide/magnolia/blackwood-propane-firewood.jpg", "x": 42, "y": 74, "lat": 31.54, "lng": -97.155}, {"name": "Brazos Breeze Laundromat", "category_label": "Services", "distance_mi": 2.2, "drive_min": 7, "visit_min": 60, "plan": false, "priority": 99, "keywords": "laundry wash clothes laundromat dry cleaning", "blurb": "Clean, attended laundromat with oversized washers for bedding and a folding service if you would rather be at the beach.", "rating": null, "reviews": null, "price": "$", "hours": "Open until 10:00 PM", "phone": "(254) 555-0155", "address": "305 La Salle Ave, Waco, TX", "x": 66, "y": 82, "lat": 31.538, "lng": -97.168, "image": ""}, {"name": "Oak Ridge Urgent & Vet", "category_label": "Emergency", "distance_mi": 6.0, "drive_min": 14, "visit_min": 45, "plan": false, "priority": 99, "keywords": "doctor urgent care vet pet emergency hospital clinic sick hurt", "blurb": "Combined urgent care and emergency veterinary hospital, open 24/7. Walk-ins welcome, no appointment needed.", "rating": null, "reviews": null, "price": "$$", "hours": "Open 24 hours", "phone": "(555) 091-1234", "address": "900 Imperial Dr, Waco, TX", "x": 86, "y": 68, "lat": 31.565, "lng": -97.075, "image": ""}]; window.SHOWCASE_ASSET_BASE = "assets/";</script>
+    <script>window.SHOWCASE_ASSET_BASE = "assets/"; window.SHOWCASE_PLACES = [{"name": "Magnolia Market at the Silos", "category_label": "Activities", "distance_mi": 3.5, "drive_min": 10, "visit_min": 120, "plan": false, "priority": 99, "keywords": "shopping silos magnolia bakery things to do family", "blurb": "Chip and Joanna Gaines's shops, bakery and garden around the historic silos in downtown Waco. Closed Sundays.", "rating": null, "reviews": null, "price": "", "hours": "Mon – Sat 9 AM – 6 PM", "phone": "(254) 235-0603", "address": "601 Webster Ave, Waco, TX", "x": 0, "y": 0, "lat": 31.5523779, "lng": -97.1296147, "image": ""}, {"name": "Cameron Park", "category_label": "Trails", "distance_mi": 2.7, "drive_min": 8, "visit_min": 90, "plan": false, "priority": 99, "keywords": "trails hiking biking park walk outdoors nature", "blurb": "A 416-acre city park along the Brazos River with more than 20 miles of hiking and biking trails, picnic areas and a disc golf course.", "rating": null, "reviews": null, "price": "", "hours": "Free • 6 AM – midnight", "phone": "", "address": "2601 N University Parks Dr, Waco, TX", "x": 0, "y": 0, "lat": 31.5647088, "lng": -97.1347256, "image": ""}, {"name": "Waco Suspension Bridge & Riverwalk", "category_label": "Water & Outdoors", "distance_mi": 2.8, "drive_min": 9, "visit_min": 60, "plan": false, "priority": 99, "keywords": "bridge river walk outdoors park sightseeing", "blurb": "Walk the 1870 suspension bridge over the Brazos River, then follow the lighted Riverwalk trail along both banks.", "rating": null, "reviews": null, "price": "", "hours": "Free • Open daily", "phone": "", "address": "101 N University Parks Dr, Waco, TX", "x": 0, "y": 0, "lat": 31.5598262, "lng": -97.1281049, "image": ""}, {"name": "Baylor Scott & White – Hillcrest", "category_label": "Emergency", "distance_mi": 9.5, "drive_min": 22, "visit_min": 60, "plan": false, "priority": 99, "keywords": "hospital emergency er urgent care doctor medical", "blurb": "Full-service hospital with a 24/7 emergency room. For life-threatening emergencies, call 911.", "rating": null, "reviews": null, "price": "", "hours": "24/7 Emergency Room", "phone": "(254) 202-2000", "address": "100 Hillcrest Medical Blvd, Waco, TX", "x": 0, "y": 0, "lat": 31.488905, "lng": -97.157075, "image": ""}, {"name": "Affordable RV Repair and Mobile Service", "category_label": "Sponsor · Services", "distance_mi": 8.7, "drive_min": 20, "visit_min": 45, "plan": false, "priority": 99, "keywords": "sponsor services rv repair mobile service mechanic camper", "blurb": "Mobile RV repair that can come to your site.", "rating": null, "reviews": null, "price": "", "hours": "", "phone": "", "address": "354 N Rock Creek Rd, Waco, TX", "x": 0, "y": 0, "lat": 31.6428612, "lng": -97.2088365, "image": "pages/images/guide/magnolia/affordable-rv-repair.jpg"}, {"name": "American A1 Truck Wash", "category_label": "Sponsor · Services", "distance_mi": 7.1, "drive_min": 17, "visit_min": 45, "plan": false, "priority": 99, "keywords": "sponsor services wash truck rv car wash cleaning", "blurb": "Truck and RV wash just north on I-35.", "rating": null, "reviews": null, "price": "", "hours": "", "phone": "(254) 829-6016", "address": "1172 S Connally Dr, Elm Mott, TX", "x": 0, "y": 0, "lat": 31.6667695, "lng": -97.1000833, "image": "pages/images/guide/magnolia/a1-truck-wash.jpg"}, {"name": "Broken G BBQ", "category_label": "Sponsor · Eat", "distance_mi": 3.9, "drive_min": 11, "visit_min": 60, "plan": false, "priority": 99, "keywords": "sponsor eat bbq barbecue brisket food lunch", "blurb": "Local barbecue spot in Lacy Lakeview.", "rating": null, "reviews": null, "price": "", "hours": "", "phone": "", "address": "417 N Lacy Dr, Lacy Lakeview, TX", "x": 0, "y": 0, "lat": 31.6309413, "lng": -97.1054867, "image": "pages/images/guide/magnolia/broken-g-bbq.jpg"}, {"name": "Christi's Burgers", "category_label": "Sponsor · Eat", "distance_mi": 1.5, "drive_min": 6, "visit_min": 60, "plan": false, "priority": 99, "keywords": "sponsor eat burger burgers hamburger fries food lunch", "blurb": "Hometown burger joint for burgers and fries.", "rating": null, "reviews": null, "price": "", "hours": "", "phone": "", "address": "3101 Beale St, Ste A, Waco, TX", "x": 0, "y": 0, "lat": 31.598779, "lng": -97.0990132, "image": "pages/images/guide/magnolia/christis-burgers.jpg"}, {"name": "Dave's Burger Barn", "category_label": "Sponsor · Eat", "distance_mi": 1.5, "drive_min": 6, "visit_min": 60, "plan": false, "priority": 99, "keywords": "sponsor eat burger burgers shakes food lunch", "blurb": "Burgers and shakes, dine-in, takeout and catering.", "rating": null, "reviews": null, "price": "", "hours": "", "phone": "(254) 867-8000", "address": "600 N Patricia St, Waco, TX", "x": 0, "y": 0, "lat": 31.598779, "lng": -97.0990132, "image": "pages/images/guide/magnolia/daves-burger-barn.jpg"}, {"name": "Dee's Deelicious Donuts & Lunch", "category_label": "Sponsor · Eat", "distance_mi": 7.5, "drive_min": 18, "visit_min": 60, "plan": false, "priority": 99, "keywords": "sponsor eat donuts doughnuts breakfast coffee lunch food", "blurb": "Donut shop in Elm Mott for breakfast and lunch.", "rating": null, "reviews": null, "price": "", "hours": "", "phone": "", "address": "104 W Elm Mott Dr, Elm Mott, TX", "x": 0, "y": 0, "lat": 31.6708116, "lng": -97.1011788, "image": "pages/images/guide/magnolia/dees-donuts.jpg"}, {"name": "Domino's Pizza", "category_label": "Sponsor · Eat", "distance_mi": 2.7, "drive_min": 8, "visit_min": 60, "plan": false, "priority": 99, "keywords": "sponsor eat pizza delivery food dinner", "blurb": "Pizza for pickup or delivery to your site.", "rating": null, "reviews": null, "price": "", "hours": "", "phone": "(254) 799-3030", "address": "700 N Loop 340, Waco, TX", "x": 0, "y": 0, "lat": 31.5857279, "lng": -97.0786155, "image": "pages/images/guide/magnolia/dominos-pizza.jpg"}, {"name": "Dr Pepper Museum", "category_label": "Sponsor · Things to Do", "distance_mi": 3.2, "drive_min": 9, "visit_min": 90, "plan": false, "priority": 99, "keywords": "sponsor things to do museum dr pepper soda history family things to do", "blurb": "The history of Dr Pepper in the building where it was first bottled.", "rating": null, "reviews": null, "price": "", "hours": "", "phone": "(254) 757-1025", "address": "300 S 5th St, Waco, TX", "x": 0, "y": 0, "lat": 31.5547738, "lng": -97.1289184, "image": "pages/images/guide/magnolia/dr-pepper-museum.jpg"}, {"name": "El Conquistador", "category_label": "Sponsor · Eat", "distance_mi": 2.7, "drive_min": 8, "visit_min": 60, "plan": false, "priority": 99, "keywords": "sponsor eat tex mex mexican enchiladas food lunch dinner", "blurb": "Tex-Mex restaurant on Loop 340.", "rating": null, "reviews": null, "price": "", "hours": "", "phone": "(254) 799-6655", "address": "901 N Loop 340, Waco, TX", "x": 0, "y": 0, "lat": 31.5857279, "lng": -97.0786155, "image": "pages/images/guide/magnolia/el-conquistador.jpg"}, {"name": "Heitmiller Steakhouse", "category_label": "Sponsor · Eat", "distance_mi": 1.7, "drive_min": 6, "visit_min": 60, "plan": false, "priority": 99, "keywords": "sponsor eat steak steakhouse dinner food", "blurb": "Steakhouse on I-35 for a sit-down steak dinner.", "rating": null, "reviews": null, "price": "", "hours": "", "phone": "(254) 867-1400", "address": "4509 I-35 N Frontage Rd, Lacy Lakeview, TX", "x": 0, "y": 0, "lat": 31.6067228, "lng": -97.106871, "image": "pages/images/guide/magnolia/heitmiller-steakhouse.jpg"}, {"name": "J&M Tire Service", "category_label": "Sponsor · Services", "distance_mi": 1.5, "drive_min": 6, "visit_min": 45, "plan": false, "priority": 99, "keywords": "sponsor services tire tires flat repair service", "blurb": "Tire repair and replacement on Lacy Drive.", "rating": null, "reviews": null, "price": "", "hours": "", "phone": "", "address": "208 N Lacy Dr, Waco, TX", "x": 0, "y": 0, "lat": 31.598779, "lng": -97.0990132, "image": "pages/images/guide/magnolia/jm-tire-service.jpg"}, {"name": "Lupita's Taqueria", "category_label": "Sponsor · Eat", "distance_mi": 0.4, "drive_min": 4, "visit_min": 60, "plan": false, "priority": 99, "keywords": "sponsor eat tacos mexican taqueria food lunch breakfast", "blurb": "Mexican taqueria with tacos and plates, just up I-35.", "rating": null, "reviews": null, "price": "", "hours": "", "phone": "", "address": "5150 I-35 N Frontage Rd, Waco, TX", "x": 0, "y": 0, "lat": 31.5881705, "lng": -97.109039, "image": "pages/images/guide/magnolia/lupitas-taqueria.jpg"}, {"name": "Mobile Mechanic Services", "category_label": "Sponsor · Services", "distance_mi": 1.8, "drive_min": 7, "visit_min": 45, "plan": false, "priority": 99, "keywords": "sponsor services mechanic auto repair car truck mobile", "blurb": "Auto repair for cars and trucks.", "rating": null, "reviews": null, "price": "", "hours": "", "phone": "", "address": "2405 J J Flewellen Rd, Waco, TX", "x": 0, "y": 0, "lat": 31.594718, "lng": -97.1371856, "image": "pages/images/guide/magnolia/mobile-mechanic.jpg"}, {"name": "Rocky's Roadhouse", "category_label": "Sponsor · Things to Do", "distance_mi": 1.5, "drive_min": 6, "visit_min": 90, "plan": false, "priority": 99, "keywords": "sponsor things to do bar drinks beer music nightlife", "blurb": "Neighborhood bar for a drink after a day on the road.", "rating": null, "reviews": null, "price": "", "hours": "", "phone": "", "address": "926 S Lacy Dr, Waco, TX", "x": 0, "y": 0, "lat": 31.598779, "lng": -97.0990132, "image": "pages/images/guide/magnolia/rockys-roadhouse.jpg"}, {"name": "Shipley Do-Nuts", "category_label": "Sponsor · Eat", "distance_mi": 1.8, "drive_min": 7, "visit_min": 60, "plan": false, "priority": 99, "keywords": "sponsor eat donuts doughnuts breakfast coffee kolaches food", "blurb": "Glazed donuts and kolaches for an early breakfast.", "rating": null, "reviews": null, "price": "", "hours": "", "phone": "(254) 412-0022", "address": "600 N Loop 340, Ste 106, Bellmead, TX", "x": 0, "y": 0, "lat": 31.6038509, "lng": -97.0999203, "image": "pages/images/guide/magnolia/shipley-donuts.jpg"}, {"name": "Spec's Wines, Spirits & Finer Foods", "category_label": "Sponsor · Shop", "distance_mi": 1.7, "drive_min": 6, "visit_min": 30, "plan": false, "priority": 99, "keywords": "sponsor shop liquor wine beer spirits store shopping groceries", "blurb": "Wine, beer, spirits and snacks.", "rating": null, "reviews": null, "price": "", "hours": "", "phone": "(254) 799-5390", "address": "715 New Dallas Hwy, Lacy Lakeview, TX", "x": 0, "y": 0, "lat": 31.6074049, "lng": -97.1111096, "image": "pages/images/guide/magnolia/specs.jpg"}, {"name": "Terry Black's Barbecue", "category_label": "Sponsor · Eat", "distance_mi": 3.5, "drive_min": 10, "visit_min": 60, "plan": false, "priority": 99, "keywords": "sponsor eat bbq barbecue brisket ribs food lunch dinner", "blurb": "Central Texas barbecue in downtown Waco: brisket, ribs and sausage by the pound.", "rating": null, "reviews": null, "price": "", "hours": "", "phone": "(254) 300-5690", "address": "228 S 8th St, Waco, TX", "x": 0, "y": 0, "lat": 31.5534666, "lng": -97.1331049, "image": "pages/images/guide/magnolia/terry-blacks-barbecue.jpg"}, {"name": "Waco Mammoth National Monument", "category_label": "Sponsor · Things to Do", "distance_mi": 7.1, "drive_min": 17, "visit_min": 90, "plan": false, "priority": 99, "keywords": "sponsor things to do mammoth fossils museum national park family things to do", "blurb": "See fossil mammoths where they were found, now a national monument.", "rating": null, "reviews": null, "price": "", "hours": "", "phone": "(254) 750-7946", "address": "6220 Steinbeck Bend Dr, Waco, TX", "x": 0, "y": 0, "lat": 31.605132, "lng": -97.2049191, "image": "pages/images/guide/magnolia/waco-mammoth.jpg"}, {"name": "Xpress Laundry", "category_label": "Sponsor · Services", "distance_mi": 4.9, "drive_min": 13, "visit_min": 45, "plan": false, "priority": 99, "keywords": "sponsor services laundry laundromat wash fold clothes", "blurb": "Self-service laundromat with wash & fold and pickup.", "rating": null, "reviews": null, "price": "", "hours": "", "phone": "(254) 304-0949", "address": "202 E Crest Dr, Waco, TX", "x": 0, "y": 0, "lat": 31.6406925, "lng": -97.0936701, "image": "pages/images/guide/magnolia/xpress-laundry.jpg"}]; window.SHOWCASE_ASSET_BASE = "assets/";</script>
     <script src="assets/pages/js/showcase.js"></script>
 
     </main>

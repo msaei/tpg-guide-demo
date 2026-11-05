@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Static export of magnolia-rv-resort, 2026-11-05 -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="robots" content="noindex">
@@ -73,16 +74,28 @@
         All
     </button>
     
+        <button type="button" data-filter="services" aria-pressed="false"
+                class="group flex shrink-0 items-center gap-1.5 rounded-full bg-surface-container px-3.5 py-1.5 text-xs font-bold text-on-surface-variant transition-all hover:bg-surface-container-high active:scale-95 aria-pressed:bg-primary aria-pressed:text-on-primary aria-pressed:shadow-xs">
+            <span class="material-symbols-outlined text-[16px] text-primary group-aria-pressed:text-on-primary" aria-hidden="true">home_repair_service</span>
+            Services
+        </button>
+    
         <button type="button" data-filter="eat" aria-pressed="false"
                 class="group flex shrink-0 items-center gap-1.5 rounded-full bg-surface-container px-3.5 py-1.5 text-xs font-bold text-on-surface-variant transition-all hover:bg-surface-container-high active:scale-95 aria-pressed:bg-primary aria-pressed:text-on-primary aria-pressed:shadow-xs">
             <span class="material-symbols-outlined text-[16px] text-primary group-aria-pressed:text-on-primary" aria-hidden="true">restaurant</span>
             Eat
         </button>
     
-        <button type="button" data-filter="services" aria-pressed="false"
+        <button type="button" data-filter="things_to_do" aria-pressed="false"
                 class="group flex shrink-0 items-center gap-1.5 rounded-full bg-surface-container px-3.5 py-1.5 text-xs font-bold text-on-surface-variant transition-all hover:bg-surface-container-high active:scale-95 aria-pressed:bg-primary aria-pressed:text-on-primary aria-pressed:shadow-xs">
-            <span class="material-symbols-outlined text-[16px] text-primary group-aria-pressed:text-on-primary" aria-hidden="true">home_repair_service</span>
-            Services
+            <span class="material-symbols-outlined text-[16px] text-primary group-aria-pressed:text-on-primary" aria-hidden="true">hiking</span>
+            Things to Do
+        </button>
+    
+        <button type="button" data-filter="shop" aria-pressed="false"
+                class="group flex shrink-0 items-center gap-1.5 rounded-full bg-surface-container px-3.5 py-1.5 text-xs font-bold text-on-surface-variant transition-all hover:bg-surface-container-high active:scale-95 aria-pressed:bg-primary aria-pressed:text-on-primary aria-pressed:shadow-xs">
+            <span class="material-symbols-outlined text-[16px] text-primary group-aria-pressed:text-on-primary" aria-hidden="true">storefront</span>
+            Shop
         </button>
     
 </div>
@@ -91,29 +104,31 @@
         <div id="sponsor-list" class="flex flex-col gap-4">
             
                 
-<article data-category="eat" class="flex flex-col overflow-hidden rounded-2xl border border-outline-variant/40 bg-surface-container shadow-xs">
+<article data-category="services" class="flex flex-col overflow-hidden rounded-2xl border border-outline-variant/40 bg-surface-container shadow-xs">
     <div class="relative h-44 bg-surface-container-high">
-        <img src="assets/pages/images/guide/magnolia/magnolia-general-deli.jpg" alt="General store porch in morning sun with baskets of tomatoes and fresh biscuits on a pine counter" class="h-full w-full object-cover" loading="lazy">
+        
+            <img src="assets/pages/images/guide/magnolia/affordable-rv-repair.jpg" alt="Mobile RV technician working inside a service van" class="h-full w-full object-cover" loading="lazy">
+        
         
         
     </div>
     <div class="flex flex-col gap-2 p-4">
         <div>
-            <h2 class="font-headline text-[17px] font-semibold">Magnolia General &amp; Deli</h2>
-            <p class="mt-0.5 text-xs font-bold tracking-wider text-secondary uppercase">Eat</p>
+            <h2 class="font-headline text-[17px] font-semibold">Affordable RV Repair and Mobile Service</h2>
+            <p class="mt-0.5 text-xs font-bold tracking-wider text-secondary uppercase">Services</p>
         </div>
         
         <div class="mt-2 flex items-center gap-2 border-t border-outline-variant/30 pt-3">
-            <a href="tel:+15558921102"
-               class="flex h-11 flex-1 items-center justify-center gap-1.5 rounded-xl bg-primary text-xs font-bold text-on-primary shadow-xs transition-all hover:bg-primary/90 active:scale-95">
-                <span class="material-symbols-outlined text-[18px]" aria-hidden="true">call</span>
-                Call
-            </a>
             
-            <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Magnolia+General+%26+Deli%2C+Waco%2C+TX" target="_blank" rel="noopener" aria-label="Directions to Magnolia General &amp; Deli"
-               class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-outline-variant/40 bg-surface-container-high text-primary transition-all hover:bg-surface-container-highest active:scale-95">
-                <span class="material-symbols-outlined text-[19px]" aria-hidden="true">directions</span>
-            </a>
+                <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Affordable+RV+Repair+and+Mobile+Service%2C+354+N+Rock+Creek+Rd%2C+Waco%2C+TX" target="_blank" rel="noopener"
+                   class="flex h-11 flex-1 items-center justify-center gap-1.5 rounded-xl bg-primary text-xs font-bold text-on-primary shadow-xs transition-all hover:bg-primary/90 active:scale-95">
+                    <span class="material-symbols-outlined text-[18px]" aria-hidden="true">directions</span>
+                    Directions
+                </a>
+            
+            
+            
+            
         </div>
     </div>
 </article>
@@ -122,56 +137,34 @@
                 
 <article data-category="services" class="flex flex-col overflow-hidden rounded-2xl border border-outline-variant/40 bg-surface-container shadow-xs">
     <div class="relative h-44 bg-surface-container-high">
-        <img src="assets/pages/images/guide/magnolia/pine-valley-rv-tech.jpg" alt="Mobile RV technician working inside an organized service van" class="h-full w-full object-cover" loading="lazy">
         
+            <img src="assets/pages/images/guide/magnolia/a1-truck-wash.jpg" alt="Vehicle being sprayed in a wash bay" class="h-full w-full object-cover" loading="lazy">
         
-    </div>
-    <div class="flex flex-col gap-2 p-4">
-        <div>
-            <h2 class="font-headline text-[17px] font-semibold">Pine Valley RV Tech</h2>
-            <p class="mt-0.5 text-xs font-bold tracking-wider text-secondary uppercase">Services</p>
-        </div>
-        
-        <div class="mt-2 flex items-center gap-2 border-t border-outline-variant/30 pt-3">
-            <a href="tel:+15554129983"
-               class="flex h-11 flex-1 items-center justify-center gap-1.5 rounded-xl bg-primary text-xs font-bold text-on-primary shadow-xs transition-all hover:bg-primary/90 active:scale-95">
-                <span class="material-symbols-outlined text-[18px]" aria-hidden="true">call</span>
-                Call
-            </a>
-            
-            <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Pine+Valley+RV+Tech%2C+Waco%2C+TX" target="_blank" rel="noopener" aria-label="Directions to Pine Valley RV Tech"
-               class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-outline-variant/40 bg-surface-container-high text-primary transition-all hover:bg-surface-container-highest active:scale-95">
-                <span class="material-symbols-outlined text-[19px]" aria-hidden="true">directions</span>
-            </a>
-        </div>
-    </div>
-</article>
-
-            
-                
-<article data-category="services" class="flex flex-col overflow-hidden rounded-2xl border border-outline-variant/40 bg-surface-container shadow-xs">
-    <div class="relative h-44 bg-surface-container-high">
-        <img src="assets/pages/images/guide/magnolia/blackwood-propane-firewood.jpg" alt="Stacked firewood bundles and propane tanks on gravel beside a parked RV" class="h-full w-full object-cover" loading="lazy">
         
         
     </div>
     <div class="flex flex-col gap-2 p-4">
         <div>
-            <h2 class="font-headline text-[17px] font-semibold">Blackwood Propane &amp; Firewood</h2>
+            <h2 class="font-headline text-[17px] font-semibold">American A1 Truck Wash</h2>
             <p class="mt-0.5 text-xs font-bold tracking-wider text-secondary uppercase">Services</p>
         </div>
         
         <div class="mt-2 flex items-center gap-2 border-t border-outline-variant/30 pt-3">
-            <a href="tel:+15556209811"
-               class="flex h-11 flex-1 items-center justify-center gap-1.5 rounded-xl bg-primary text-xs font-bold text-on-primary shadow-xs transition-all hover:bg-primary/90 active:scale-95">
-                <span class="material-symbols-outlined text-[18px]" aria-hidden="true">call</span>
-                Call
-            </a>
             
-            <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Blackwood+Propane+%26+Firewood%2C+Waco%2C+TX" target="_blank" rel="noopener" aria-label="Directions to Blackwood Propane &amp; Firewood"
-               class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-outline-variant/40 bg-surface-container-high text-primary transition-all hover:bg-surface-container-highest active:scale-95">
-                <span class="material-symbols-outlined text-[19px]" aria-hidden="true">directions</span>
-            </a>
+                <a href="tel:+12548296016"
+                   class="flex h-11 flex-1 items-center justify-center gap-1.5 rounded-xl bg-primary text-xs font-bold text-on-primary shadow-xs transition-all hover:bg-primary/90 active:scale-95">
+                    <span class="material-symbols-outlined text-[18px]" aria-hidden="true">call</span>
+                    Call
+                </a>
+            
+            
+            
+            
+                <a href="https://www.google.com/maps/dir/?api=1&amp;destination=American+A1+Truck+Wash%2C+1172+S+Connally+Dr%2C+Elm+Mott%2C+TX" target="_blank" rel="noopener" aria-label="Directions to American A1 Truck Wash"
+                   class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-outline-variant/40 bg-surface-container-high text-primary transition-all hover:bg-surface-container-highest active:scale-95">
+                    <span class="material-symbols-outlined text-[19px]" aria-hidden="true">directions</span>
+                </a>
+            
         </div>
     </div>
 </article>
@@ -180,27 +173,610 @@
                 
 <article data-category="eat" class="flex flex-col overflow-hidden rounded-2xl border border-outline-variant/40 bg-surface-container shadow-xs">
     <div class="relative h-44 bg-surface-container-high">
-        <img src="assets/pages/images/guide/magnolia/ridgeview-brewery.jpg" alt="Outdoor beer garden under string lights with craft beers and a barbecue platter at sunset" class="h-full w-full object-cover" loading="lazy">
+        
+            <img src="assets/pages/images/guide/magnolia/broken-g-bbq.jpg" alt="Pitmaster slicing a smoked brisket" class="h-full w-full object-cover" loading="lazy">
+        
         
         
     </div>
     <div class="flex flex-col gap-2 p-4">
         <div>
-            <h2 class="font-headline text-[17px] font-semibold">Ridgeview Craft Brewery &amp; Smokehouse</h2>
+            <h2 class="font-headline text-[17px] font-semibold">Broken G BBQ</h2>
             <p class="mt-0.5 text-xs font-bold tracking-wider text-secondary uppercase">Eat</p>
         </div>
         
         <div class="mt-2 flex items-center gap-2 border-t border-outline-variant/30 pt-3">
-            <a href="tel:+15553319042"
-               class="flex h-11 flex-1 items-center justify-center gap-1.5 rounded-xl bg-primary text-xs font-bold text-on-primary shadow-xs transition-all hover:bg-primary/90 active:scale-95">
-                <span class="material-symbols-outlined text-[18px]" aria-hidden="true">call</span>
-                Call
-            </a>
             
-            <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Ridgeview+Craft+Brewery+%26+Smokehouse%2C+Waco%2C+TX" target="_blank" rel="noopener" aria-label="Directions to Ridgeview Craft Brewery &amp; Smokehouse"
-               class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-outline-variant/40 bg-surface-container-high text-primary transition-all hover:bg-surface-container-highest active:scale-95">
-                <span class="material-symbols-outlined text-[19px]" aria-hidden="true">directions</span>
-            </a>
+                <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Broken+G+BBQ%2C+417+N+Lacy+Dr%2C+Lacy+Lakeview%2C+TX" target="_blank" rel="noopener"
+                   class="flex h-11 flex-1 items-center justify-center gap-1.5 rounded-xl bg-primary text-xs font-bold text-on-primary shadow-xs transition-all hover:bg-primary/90 active:scale-95">
+                    <span class="material-symbols-outlined text-[18px]" aria-hidden="true">directions</span>
+                    Directions
+                </a>
+            
+            
+            
+            
+        </div>
+    </div>
+</article>
+
+            
+                
+<article data-category="eat" class="flex flex-col overflow-hidden rounded-2xl border border-outline-variant/40 bg-surface-container shadow-xs">
+    <div class="relative h-44 bg-surface-container-high">
+        
+            <img src="assets/pages/images/guide/magnolia/christis-burgers.jpg" alt="Cheeseburger with lettuce and tomato" class="h-full w-full object-cover" loading="lazy">
+        
+        
+        
+    </div>
+    <div class="flex flex-col gap-2 p-4">
+        <div>
+            <h2 class="font-headline text-[17px] font-semibold">Christi&#x27;s Burgers</h2>
+            <p class="mt-0.5 text-xs font-bold tracking-wider text-secondary uppercase">Eat</p>
+        </div>
+        
+        <div class="mt-2 flex items-center gap-2 border-t border-outline-variant/30 pt-3">
+            
+                <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Christi%27s+Burgers%2C+3101+Beale+St%2C+Ste+A%2C+Waco%2C+TX" target="_blank" rel="noopener"
+                   class="flex h-11 flex-1 items-center justify-center gap-1.5 rounded-xl bg-primary text-xs font-bold text-on-primary shadow-xs transition-all hover:bg-primary/90 active:scale-95">
+                    <span class="material-symbols-outlined text-[18px]" aria-hidden="true">directions</span>
+                    Directions
+                </a>
+            
+            
+            
+            
+        </div>
+    </div>
+</article>
+
+            
+                
+<article data-category="eat" class="flex flex-col overflow-hidden rounded-2xl border border-outline-variant/40 bg-surface-container shadow-xs">
+    <div class="relative h-44 bg-surface-container-high">
+        
+            <img src="assets/pages/images/guide/magnolia/daves-burger-barn.jpg" alt="Double cheeseburger on a sesame bun" class="h-full w-full object-cover" loading="lazy">
+        
+        
+        
+    </div>
+    <div class="flex flex-col gap-2 p-4">
+        <div>
+            <h2 class="font-headline text-[17px] font-semibold">Dave&#x27;s Burger Barn</h2>
+            <p class="mt-0.5 text-xs font-bold tracking-wider text-secondary uppercase">Eat</p>
+        </div>
+        
+        <div class="mt-2 flex items-center gap-2 border-t border-outline-variant/30 pt-3">
+            
+                <a href="tel:+12548678000"
+                   class="flex h-11 flex-1 items-center justify-center gap-1.5 rounded-xl bg-primary text-xs font-bold text-on-primary shadow-xs transition-all hover:bg-primary/90 active:scale-95">
+                    <span class="material-symbols-outlined text-[18px]" aria-hidden="true">call</span>
+                    Call
+                </a>
+            
+            
+            
+                <a href="https://www.davesburgerbarn.com/" target="_blank" rel="noopener" aria-label="Dave&#x27;s Burger Barn website"
+                   class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-outline-variant/40 bg-surface-container-high text-primary transition-all hover:bg-surface-container-highest active:scale-95">
+                    <span class="material-symbols-outlined text-[19px]" aria-hidden="true">language</span>
+                </a>
+            
+            
+                <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Dave%27s+Burger+Barn%2C+600+N+Patricia+St%2C+Waco%2C+TX" target="_blank" rel="noopener" aria-label="Directions to Dave&#x27;s Burger Barn"
+                   class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-outline-variant/40 bg-surface-container-high text-primary transition-all hover:bg-surface-container-highest active:scale-95">
+                    <span class="material-symbols-outlined text-[19px]" aria-hidden="true">directions</span>
+                </a>
+            
+        </div>
+    </div>
+</article>
+
+            
+                
+<article data-category="eat" class="flex flex-col overflow-hidden rounded-2xl border border-outline-variant/40 bg-surface-container shadow-xs">
+    <div class="relative h-44 bg-surface-container-high">
+        
+            <img src="assets/pages/images/guide/magnolia/dees-donuts.jpg" alt="Stack of donuts with chocolate glaze and sprinkles" class="h-full w-full object-cover" loading="lazy">
+        
+        
+        
+    </div>
+    <div class="flex flex-col gap-2 p-4">
+        <div>
+            <h2 class="font-headline text-[17px] font-semibold">Dee&#x27;s Deelicious Donuts &amp; Lunch</h2>
+            <p class="mt-0.5 text-xs font-bold tracking-wider text-secondary uppercase">Eat</p>
+        </div>
+        
+        <div class="mt-2 flex items-center gap-2 border-t border-outline-variant/30 pt-3">
+            
+                <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Dee%27s+Deelicious+Donuts+%26+Lunch%2C+104+W+Elm+Mott+Dr%2C+Elm+Mott%2C+TX" target="_blank" rel="noopener"
+                   class="flex h-11 flex-1 items-center justify-center gap-1.5 rounded-xl bg-primary text-xs font-bold text-on-primary shadow-xs transition-all hover:bg-primary/90 active:scale-95">
+                    <span class="material-symbols-outlined text-[18px]" aria-hidden="true">directions</span>
+                    Directions
+                </a>
+            
+            
+            
+            
+        </div>
+    </div>
+</article>
+
+            
+                
+<article data-category="eat" class="flex flex-col overflow-hidden rounded-2xl border border-outline-variant/40 bg-surface-container shadow-xs">
+    <div class="relative h-44 bg-surface-container-high">
+        
+            <img src="assets/pages/images/guide/magnolia/dominos-pizza.jpg" alt="Sliced pizza on a wooden board" class="h-full w-full object-cover" loading="lazy">
+        
+        
+        
+    </div>
+    <div class="flex flex-col gap-2 p-4">
+        <div>
+            <h2 class="font-headline text-[17px] font-semibold">Domino&#x27;s Pizza</h2>
+            <p class="mt-0.5 text-xs font-bold tracking-wider text-secondary uppercase">Eat</p>
+        </div>
+        
+        <div class="mt-2 flex items-center gap-2 border-t border-outline-variant/30 pt-3">
+            
+                <a href="tel:+12547993030"
+                   class="flex h-11 flex-1 items-center justify-center gap-1.5 rounded-xl bg-primary text-xs font-bold text-on-primary shadow-xs transition-all hover:bg-primary/90 active:scale-95">
+                    <span class="material-symbols-outlined text-[18px]" aria-hidden="true">call</span>
+                    Call
+                </a>
+            
+            
+            
+            
+                <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Domino%27s+Pizza%2C+700+N+Loop+340%2C+Waco%2C+TX" target="_blank" rel="noopener" aria-label="Directions to Domino&#x27;s Pizza"
+                   class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-outline-variant/40 bg-surface-container-high text-primary transition-all hover:bg-surface-container-highest active:scale-95">
+                    <span class="material-symbols-outlined text-[19px]" aria-hidden="true">directions</span>
+                </a>
+            
+        </div>
+    </div>
+</article>
+
+            
+                
+<article data-category="things_to_do" class="flex flex-col overflow-hidden rounded-2xl border border-outline-variant/40 bg-surface-container shadow-xs">
+    <div class="relative h-44 bg-surface-container-high">
+        
+            <img src="assets/pages/images/guide/magnolia/dr-pepper-museum.jpg" alt="Vintage glass soda bottles by a window" class="h-full w-full object-cover" loading="lazy">
+        
+        
+        
+    </div>
+    <div class="flex flex-col gap-2 p-4">
+        <div>
+            <h2 class="font-headline text-[17px] font-semibold">Dr Pepper Museum</h2>
+            <p class="mt-0.5 text-xs font-bold tracking-wider text-secondary uppercase">Things to Do</p>
+        </div>
+        
+        <div class="mt-2 flex items-center gap-2 border-t border-outline-variant/30 pt-3">
+            
+                <a href="tel:+12547571025"
+                   class="flex h-11 flex-1 items-center justify-center gap-1.5 rounded-xl bg-primary text-xs font-bold text-on-primary shadow-xs transition-all hover:bg-primary/90 active:scale-95">
+                    <span class="material-symbols-outlined text-[18px]" aria-hidden="true">call</span>
+                    Call
+                </a>
+            
+            
+            
+                <a href="https://drpeppermuseum.com/" target="_blank" rel="noopener" aria-label="Dr Pepper Museum website"
+                   class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-outline-variant/40 bg-surface-container-high text-primary transition-all hover:bg-surface-container-highest active:scale-95">
+                    <span class="material-symbols-outlined text-[19px]" aria-hidden="true">language</span>
+                </a>
+            
+            
+                <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Dr+Pepper+Museum%2C+300+S+5th+St%2C+Waco%2C+TX" target="_blank" rel="noopener" aria-label="Directions to Dr Pepper Museum"
+                   class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-outline-variant/40 bg-surface-container-high text-primary transition-all hover:bg-surface-container-highest active:scale-95">
+                    <span class="material-symbols-outlined text-[19px]" aria-hidden="true">directions</span>
+                </a>
+            
+        </div>
+    </div>
+</article>
+
+            
+                
+<article data-category="eat" class="flex flex-col overflow-hidden rounded-2xl border border-outline-variant/40 bg-surface-container shadow-xs">
+    <div class="relative h-44 bg-surface-container-high">
+        
+            <img src="assets/pages/images/guide/magnolia/el-conquistador.jpg" alt="Tacos with avocado, salsa and lime" class="h-full w-full object-cover" loading="lazy">
+        
+        
+        
+    </div>
+    <div class="flex flex-col gap-2 p-4">
+        <div>
+            <h2 class="font-headline text-[17px] font-semibold">El Conquistador</h2>
+            <p class="mt-0.5 text-xs font-bold tracking-wider text-secondary uppercase">Eat</p>
+        </div>
+        
+        <div class="mt-2 flex items-center gap-2 border-t border-outline-variant/30 pt-3">
+            
+                <a href="tel:+12547996655"
+                   class="flex h-11 flex-1 items-center justify-center gap-1.5 rounded-xl bg-primary text-xs font-bold text-on-primary shadow-xs transition-all hover:bg-primary/90 active:scale-95">
+                    <span class="material-symbols-outlined text-[18px]" aria-hidden="true">call</span>
+                    Call
+                </a>
+            
+            
+            
+            
+                <a href="https://www.google.com/maps/dir/?api=1&amp;destination=El+Conquistador%2C+901+N+Loop+340%2C+Waco%2C+TX" target="_blank" rel="noopener" aria-label="Directions to El Conquistador"
+                   class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-outline-variant/40 bg-surface-container-high text-primary transition-all hover:bg-surface-container-highest active:scale-95">
+                    <span class="material-symbols-outlined text-[19px]" aria-hidden="true">directions</span>
+                </a>
+            
+        </div>
+    </div>
+</article>
+
+            
+                
+<article data-category="eat" class="flex flex-col overflow-hidden rounded-2xl border border-outline-variant/40 bg-surface-container shadow-xs">
+    <div class="relative h-44 bg-surface-container-high">
+        
+            <img src="assets/pages/images/guide/magnolia/heitmiller-steakhouse.jpg" alt="Grilled steak with herb butter, fries and salad" class="h-full w-full object-cover" loading="lazy">
+        
+        
+        
+    </div>
+    <div class="flex flex-col gap-2 p-4">
+        <div>
+            <h2 class="font-headline text-[17px] font-semibold">Heitmiller Steakhouse</h2>
+            <p class="mt-0.5 text-xs font-bold tracking-wider text-secondary uppercase">Eat</p>
+        </div>
+        
+        <div class="mt-2 flex items-center gap-2 border-t border-outline-variant/30 pt-3">
+            
+                <a href="tel:+12548671400"
+                   class="flex h-11 flex-1 items-center justify-center gap-1.5 rounded-xl bg-primary text-xs font-bold text-on-primary shadow-xs transition-all hover:bg-primary/90 active:scale-95">
+                    <span class="material-symbols-outlined text-[18px]" aria-hidden="true">call</span>
+                    Call
+                </a>
+            
+            
+            
+            
+                <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Heitmiller+Steakhouse%2C+4509+I-35+N+Frontage+Rd%2C+Lacy+Lakeview%2C+TX" target="_blank" rel="noopener" aria-label="Directions to Heitmiller Steakhouse"
+                   class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-outline-variant/40 bg-surface-container-high text-primary transition-all hover:bg-surface-container-highest active:scale-95">
+                    <span class="material-symbols-outlined text-[19px]" aria-hidden="true">directions</span>
+                </a>
+            
+        </div>
+    </div>
+</article>
+
+            
+                
+<article data-category="services" class="flex flex-col overflow-hidden rounded-2xl border border-outline-variant/40 bg-surface-container shadow-xs">
+    <div class="relative h-44 bg-surface-container-high">
+        
+            <img src="assets/pages/images/guide/magnolia/jm-tire-service.jpg" alt="Stacked tires outside a garage" class="h-full w-full object-cover" loading="lazy">
+        
+        
+        
+    </div>
+    <div class="flex flex-col gap-2 p-4">
+        <div>
+            <h2 class="font-headline text-[17px] font-semibold">J&amp;M Tire Service</h2>
+            <p class="mt-0.5 text-xs font-bold tracking-wider text-secondary uppercase">Services</p>
+        </div>
+        
+        <div class="mt-2 flex items-center gap-2 border-t border-outline-variant/30 pt-3">
+            
+                <a href="https://www.google.com/maps/dir/?api=1&amp;destination=J%26M+Tire+Service%2C+208+N+Lacy+Dr%2C+Waco%2C+TX" target="_blank" rel="noopener"
+                   class="flex h-11 flex-1 items-center justify-center gap-1.5 rounded-xl bg-primary text-xs font-bold text-on-primary shadow-xs transition-all hover:bg-primary/90 active:scale-95">
+                    <span class="material-symbols-outlined text-[18px]" aria-hidden="true">directions</span>
+                    Directions
+                </a>
+            
+            
+            
+            
+        </div>
+    </div>
+</article>
+
+            
+                
+<article data-category="eat" class="flex flex-col overflow-hidden rounded-2xl border border-outline-variant/40 bg-surface-container shadow-xs">
+    <div class="relative h-44 bg-surface-container-high">
+        
+            <img src="assets/pages/images/guide/magnolia/lupitas-taqueria.jpg" alt="Beef tacos topped with onion and cilantro" class="h-full w-full object-cover" loading="lazy">
+        
+        
+        
+    </div>
+    <div class="flex flex-col gap-2 p-4">
+        <div>
+            <h2 class="font-headline text-[17px] font-semibold">Lupita&#x27;s Taqueria</h2>
+            <p class="mt-0.5 text-xs font-bold tracking-wider text-secondary uppercase">Eat</p>
+        </div>
+        
+        <div class="mt-2 flex items-center gap-2 border-t border-outline-variant/30 pt-3">
+            
+                <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Lupita%27s+Taqueria%2C+5150+I-35+N+Frontage+Rd%2C+Waco%2C+TX" target="_blank" rel="noopener"
+                   class="flex h-11 flex-1 items-center justify-center gap-1.5 rounded-xl bg-primary text-xs font-bold text-on-primary shadow-xs transition-all hover:bg-primary/90 active:scale-95">
+                    <span class="material-symbols-outlined text-[18px]" aria-hidden="true">directions</span>
+                    Directions
+                </a>
+            
+            
+            
+            
+        </div>
+    </div>
+</article>
+
+            
+                
+<article data-category="services" class="flex flex-col overflow-hidden rounded-2xl border border-outline-variant/40 bg-surface-container shadow-xs">
+    <div class="relative h-44 bg-surface-container-high">
+        
+            <img src="assets/pages/images/guide/magnolia/mobile-mechanic.jpg" alt="Mechanic checking a car engine with the hood open" class="h-full w-full object-cover" loading="lazy">
+        
+        
+        
+    </div>
+    <div class="flex flex-col gap-2 p-4">
+        <div>
+            <h2 class="font-headline text-[17px] font-semibold">Mobile Mechanic Services</h2>
+            <p class="mt-0.5 text-xs font-bold tracking-wider text-secondary uppercase">Services</p>
+        </div>
+        
+        <div class="mt-2 flex items-center gap-2 border-t border-outline-variant/30 pt-3">
+            
+                <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Mobile+Mechanic+Services%2C+2405+J+J+Flewellen+Rd%2C+Waco%2C+TX" target="_blank" rel="noopener"
+                   class="flex h-11 flex-1 items-center justify-center gap-1.5 rounded-xl bg-primary text-xs font-bold text-on-primary shadow-xs transition-all hover:bg-primary/90 active:scale-95">
+                    <span class="material-symbols-outlined text-[18px]" aria-hidden="true">directions</span>
+                    Directions
+                </a>
+            
+            
+            
+            
+        </div>
+    </div>
+</article>
+
+            
+                
+<article data-category="things_to_do" class="flex flex-col overflow-hidden rounded-2xl border border-outline-variant/40 bg-surface-container shadow-xs">
+    <div class="relative h-44 bg-surface-container-high">
+        
+            <img src="assets/pages/images/guide/magnolia/rockys-roadhouse.jpg" alt="Outdoor bar patio under string lights at sunset" class="h-full w-full object-cover" loading="lazy">
+        
+        
+        
+    </div>
+    <div class="flex flex-col gap-2 p-4">
+        <div>
+            <h2 class="font-headline text-[17px] font-semibold">Rocky&#x27;s Roadhouse</h2>
+            <p class="mt-0.5 text-xs font-bold tracking-wider text-secondary uppercase">Things to Do</p>
+        </div>
+        
+        <div class="mt-2 flex items-center gap-2 border-t border-outline-variant/30 pt-3">
+            
+                <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Rocky%27s+Roadhouse%2C+926+S+Lacy+Dr%2C+Waco%2C+TX" target="_blank" rel="noopener"
+                   class="flex h-11 flex-1 items-center justify-center gap-1.5 rounded-xl bg-primary text-xs font-bold text-on-primary shadow-xs transition-all hover:bg-primary/90 active:scale-95">
+                    <span class="material-symbols-outlined text-[18px]" aria-hidden="true">directions</span>
+                    Directions
+                </a>
+            
+            
+            
+            
+        </div>
+    </div>
+</article>
+
+            
+                
+<article data-category="eat" class="flex flex-col overflow-hidden rounded-2xl border border-outline-variant/40 bg-surface-container shadow-xs">
+    <div class="relative h-44 bg-surface-container-high">
+        
+            <img src="assets/pages/images/guide/magnolia/shipley-donuts.jpg" alt="Pink frosted donut with sprinkles" class="h-full w-full object-cover" loading="lazy">
+        
+        
+        
+    </div>
+    <div class="flex flex-col gap-2 p-4">
+        <div>
+            <h2 class="font-headline text-[17px] font-semibold">Shipley Do-Nuts</h2>
+            <p class="mt-0.5 text-xs font-bold tracking-wider text-secondary uppercase">Eat</p>
+        </div>
+        
+        <div class="mt-2 flex items-center gap-2 border-t border-outline-variant/30 pt-3">
+            
+                <a href="tel:+12544120022"
+                   class="flex h-11 flex-1 items-center justify-center gap-1.5 rounded-xl bg-primary text-xs font-bold text-on-primary shadow-xs transition-all hover:bg-primary/90 active:scale-95">
+                    <span class="material-symbols-outlined text-[18px]" aria-hidden="true">call</span>
+                    Call
+                </a>
+            
+            
+            
+                <a href="https://www.shipleydonuts.com/" target="_blank" rel="noopener" aria-label="Shipley Do-Nuts website"
+                   class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-outline-variant/40 bg-surface-container-high text-primary transition-all hover:bg-surface-container-highest active:scale-95">
+                    <span class="material-symbols-outlined text-[19px]" aria-hidden="true">language</span>
+                </a>
+            
+            
+                <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Shipley+Do-Nuts%2C+600+N+Loop+340%2C+Ste+106%2C+Bellmead%2C+TX" target="_blank" rel="noopener" aria-label="Directions to Shipley Do-Nuts"
+                   class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-outline-variant/40 bg-surface-container-high text-primary transition-all hover:bg-surface-container-highest active:scale-95">
+                    <span class="material-symbols-outlined text-[19px]" aria-hidden="true">directions</span>
+                </a>
+            
+        </div>
+    </div>
+</article>
+
+            
+                
+<article data-category="shop" class="flex flex-col overflow-hidden rounded-2xl border border-outline-variant/40 bg-surface-container shadow-xs">
+    <div class="relative h-44 bg-surface-container-high">
+        
+            <img src="assets/pages/images/guide/magnolia/specs.jpg" alt="Shelves of liquor, wine and whisky bottles" class="h-full w-full object-cover" loading="lazy">
+        
+        
+        
+    </div>
+    <div class="flex flex-col gap-2 p-4">
+        <div>
+            <h2 class="font-headline text-[17px] font-semibold">Spec&#x27;s Wines, Spirits &amp; Finer Foods</h2>
+            <p class="mt-0.5 text-xs font-bold tracking-wider text-secondary uppercase">Shop</p>
+        </div>
+        
+        <div class="mt-2 flex items-center gap-2 border-t border-outline-variant/30 pt-3">
+            
+                <a href="tel:+12547995390"
+                   class="flex h-11 flex-1 items-center justify-center gap-1.5 rounded-xl bg-primary text-xs font-bold text-on-primary shadow-xs transition-all hover:bg-primary/90 active:scale-95">
+                    <span class="material-symbols-outlined text-[18px]" aria-hidden="true">call</span>
+                    Call
+                </a>
+            
+            
+            
+                <a href="https://specsonline.com/" target="_blank" rel="noopener" aria-label="Spec&#x27;s Wines, Spirits &amp; Finer Foods website"
+                   class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-outline-variant/40 bg-surface-container-high text-primary transition-all hover:bg-surface-container-highest active:scale-95">
+                    <span class="material-symbols-outlined text-[19px]" aria-hidden="true">language</span>
+                </a>
+            
+            
+                <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Spec%27s+Wines%2C+Spirits+%26+Finer+Foods%2C+715+New+Dallas+Hwy%2C+Lacy+Lakeview%2C+TX" target="_blank" rel="noopener" aria-label="Directions to Spec&#x27;s Wines, Spirits &amp; Finer Foods"
+                   class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-outline-variant/40 bg-surface-container-high text-primary transition-all hover:bg-surface-container-highest active:scale-95">
+                    <span class="material-symbols-outlined text-[19px]" aria-hidden="true">directions</span>
+                </a>
+            
+        </div>
+    </div>
+</article>
+
+            
+                
+<article data-category="eat" class="flex flex-col overflow-hidden rounded-2xl border border-outline-variant/40 bg-surface-container shadow-xs">
+    <div class="relative h-44 bg-surface-container-high">
+        
+            <img src="assets/pages/images/guide/magnolia/terry-blacks-barbecue.jpg" alt="Sliced smoked brisket on a wooden board" class="h-full w-full object-cover" loading="lazy">
+        
+        
+        
+    </div>
+    <div class="flex flex-col gap-2 p-4">
+        <div>
+            <h2 class="font-headline text-[17px] font-semibold">Terry Black&#x27;s Barbecue</h2>
+            <p class="mt-0.5 text-xs font-bold tracking-wider text-secondary uppercase">Eat</p>
+        </div>
+        
+        <div class="mt-2 flex items-center gap-2 border-t border-outline-variant/30 pt-3">
+            
+                <a href="tel:+12543005690"
+                   class="flex h-11 flex-1 items-center justify-center gap-1.5 rounded-xl bg-primary text-xs font-bold text-on-primary shadow-xs transition-all hover:bg-primary/90 active:scale-95">
+                    <span class="material-symbols-outlined text-[18px]" aria-hidden="true">call</span>
+                    Call
+                </a>
+            
+            
+            
+                <a href="https://terryblacksbbq.com/" target="_blank" rel="noopener" aria-label="Terry Black&#x27;s Barbecue website"
+                   class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-outline-variant/40 bg-surface-container-high text-primary transition-all hover:bg-surface-container-highest active:scale-95">
+                    <span class="material-symbols-outlined text-[19px]" aria-hidden="true">language</span>
+                </a>
+            
+            
+                <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Terry+Black%27s+Barbecue%2C+228+S+8th+St%2C+Waco%2C+TX" target="_blank" rel="noopener" aria-label="Directions to Terry Black&#x27;s Barbecue"
+                   class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-outline-variant/40 bg-surface-container-high text-primary transition-all hover:bg-surface-container-highest active:scale-95">
+                    <span class="material-symbols-outlined text-[19px]" aria-hidden="true">directions</span>
+                </a>
+            
+        </div>
+    </div>
+</article>
+
+            
+                
+<article data-category="things_to_do" class="flex flex-col overflow-hidden rounded-2xl border border-outline-variant/40 bg-surface-container shadow-xs">
+    <div class="relative h-44 bg-surface-container-high">
+        
+            <img src="assets/pages/images/guide/magnolia/waco-mammoth.jpg" alt="Fossil skeleton of an ancient mammal in a museum" class="h-full w-full object-cover" loading="lazy">
+        
+        
+        
+    </div>
+    <div class="flex flex-col gap-2 p-4">
+        <div>
+            <h2 class="font-headline text-[17px] font-semibold">Waco Mammoth National Monument</h2>
+            <p class="mt-0.5 text-xs font-bold tracking-wider text-secondary uppercase">Things to Do</p>
+        </div>
+        
+        <div class="mt-2 flex items-center gap-2 border-t border-outline-variant/30 pt-3">
+            
+                <a href="tel:+12547507946"
+                   class="flex h-11 flex-1 items-center justify-center gap-1.5 rounded-xl bg-primary text-xs font-bold text-on-primary shadow-xs transition-all hover:bg-primary/90 active:scale-95">
+                    <span class="material-symbols-outlined text-[18px]" aria-hidden="true">call</span>
+                    Call
+                </a>
+            
+            
+            
+                <a href="https://www.nps.gov/waco/" target="_blank" rel="noopener" aria-label="Waco Mammoth National Monument website"
+                   class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-outline-variant/40 bg-surface-container-high text-primary transition-all hover:bg-surface-container-highest active:scale-95">
+                    <span class="material-symbols-outlined text-[19px]" aria-hidden="true">language</span>
+                </a>
+            
+            
+                <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Waco+Mammoth+National+Monument%2C+6220+Steinbeck+Bend+Dr%2C+Waco%2C+TX" target="_blank" rel="noopener" aria-label="Directions to Waco Mammoth National Monument"
+                   class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-outline-variant/40 bg-surface-container-high text-primary transition-all hover:bg-surface-container-highest active:scale-95">
+                    <span class="material-symbols-outlined text-[19px]" aria-hidden="true">directions</span>
+                </a>
+            
+        </div>
+    </div>
+</article>
+
+            
+                
+<article data-category="services" class="flex flex-col overflow-hidden rounded-2xl border border-outline-variant/40 bg-surface-container shadow-xs">
+    <div class="relative h-44 bg-surface-container-high">
+        
+            <img src="assets/pages/images/guide/magnolia/xpress-laundry.jpg" alt="Row of washing machines in a bright laundromat" class="h-full w-full object-cover" loading="lazy">
+        
+        
+        
+    </div>
+    <div class="flex flex-col gap-2 p-4">
+        <div>
+            <h2 class="font-headline text-[17px] font-semibold">Xpress Laundry</h2>
+            <p class="mt-0.5 text-xs font-bold tracking-wider text-secondary uppercase">Services</p>
+        </div>
+        
+        <div class="mt-2 flex items-center gap-2 border-t border-outline-variant/30 pt-3">
+            
+                <a href="tel:+12543040949"
+                   class="flex h-11 flex-1 items-center justify-center gap-1.5 rounded-xl bg-primary text-xs font-bold text-on-primary shadow-xs transition-all hover:bg-primary/90 active:scale-95">
+                    <span class="material-symbols-outlined text-[18px]" aria-hidden="true">call</span>
+                    Call
+                </a>
+            
+            
+            
+                <a href="https://www.myxpresslaundry.com/" target="_blank" rel="noopener" aria-label="Xpress Laundry website"
+                   class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-outline-variant/40 bg-surface-container-high text-primary transition-all hover:bg-surface-container-highest active:scale-95">
+                    <span class="material-symbols-outlined text-[19px]" aria-hidden="true">language</span>
+                </a>
+            
+            
+                <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Xpress+Laundry%2C+202+E+Crest+Dr%2C+Waco%2C+TX" target="_blank" rel="noopener" aria-label="Directions to Xpress Laundry"
+                   class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-outline-variant/40 bg-surface-container-high text-primary transition-all hover:bg-surface-container-highest active:scale-95">
+                    <span class="material-symbols-outlined text-[19px]" aria-hidden="true">directions</span>
+                </a>
+            
         </div>
     </div>
 </article>
@@ -209,22 +785,8 @@
         </div>
     
 
-    <aside class="mt-2 flex flex-col gap-3 rounded-2xl border border-outline-variant/50 bg-secondary-container/60 p-5">
-        <div class="flex items-start gap-3">
-            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
-                <span class="material-symbols-outlined text-[22px]" aria-hidden="true">storefront</span>
-            </span>
-            <div class="min-w-0">
-                <h2 class="font-headline text-base font-semibold">Are you a local business owner?</h2>
-                <p class="mt-1 text-xs leading-relaxed text-on-surface-variant">Partner with Magnolia RV Resort to welcome traveling campers to your storefront every month.</p>
-            </div>
-        </div>
-        <a href="#"
-           class="inline-flex items-center gap-1 self-end rounded-xl bg-primary px-4 py-2 text-xs font-bold text-on-primary shadow-xs transition-all hover:bg-primary/90 active:scale-95">
-            Apply to Partner
-            <span class="material-symbols-outlined text-[15px]" aria-hidden="true">arrow_forward</span>
-        </a>
-    </aside>
+    
+    
 
     </main>
 
@@ -257,7 +819,7 @@
             
                 
                 
-                    <a href="sponsors.html" aria-current="page" class="flex min-h-[44px] flex-1 flex-col items-center justify-center rounded-xl bg-primary-fixed/50 px-1 py-1.5 font-bold text-primary">
+                    <a href="index.html" aria-current="page" class="flex min-h-[44px] flex-1 flex-col items-center justify-center rounded-xl bg-primary-fixed/50 px-1 py-1.5 font-bold text-primary">
                         <span class="material-symbols-outlined icon-fill text-[22px]" aria-hidden="true">local_offer</span>
                         <span class="mt-0.5 text-[11px]">Sponsors</span>
                     </a>
