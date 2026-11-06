@@ -10,6 +10,12 @@
     <meta name="description" content="Guest guide for Magnolia RV Resort: Wi-Fi, park rules, nearby spots, local sponsors and contacts.">
 
     
+    <meta name="theme-color" content="#faf6f0">
+    <meta name="apple-mobile-web-app-title" content="Magnolia RV Resort">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="apple-touch-icon" href="icon-180.png">
+
+    
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -82,6 +88,59 @@
             
         </ul>
         
+    </section>
+
+    
+    <section data-install="magnolia-rv-resort" hidden aria-labelledby="install-title"
+             class="rounded-3xl border border-outline-variant/40 bg-surface-container p-4 shadow-xs">
+        <div class="flex items-start gap-3">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-primary-fixed/60 text-primary">
+                <span class="material-symbols-outlined text-[22px]" aria-hidden="true">install_mobile</span>
+            </span>
+            <div class="min-w-0 flex-1">
+                <h2 id="install-title" class="font-headline text-base font-semibold">Save this guide to your phone</h2>
+                <p class="mt-0.5 text-[13px] leading-relaxed text-on-surface-variant">Open it from your home screen in one tap, like an app.</p>
+            </div>
+            <button type="button" data-install-dismiss aria-label="Hide this tip"
+                    class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-on-surface-variant transition-colors hover:bg-surface-container-high">
+                <span class="material-symbols-outlined text-[18px]" aria-hidden="true">close</span>
+            </button>
+        </div>
+        <button type="button" data-install-button
+                class="mt-3 flex h-11 w-full items-center justify-center gap-1.5 rounded-xl bg-primary text-xs font-bold text-on-primary shadow-xs transition-all hover:bg-primary/90 active:scale-95">
+            <span class="material-symbols-outlined text-[18px]" aria-hidden="true">add_to_home_screen</span>
+            Add to Home Screen
+        </button>
+        
+<ol data-install-steps="ios" hidden class="mt-3 space-y-2 rounded-xl bg-surface-container-high p-3 text-[13px] text-on-surface">
+    <li class="flex items-center gap-2">
+        <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-primary text-[11px] font-bold text-on-primary">1</span>
+        <span>Tap <span class="material-symbols-outlined align-middle text-[18px] text-primary" aria-hidden="true">ios_share</span> <strong>Share</strong> in your browser's toolbar.</span>
+    </li>
+    <li class="flex items-center gap-2">
+        <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-primary text-[11px] font-bold text-on-primary">2</span>
+        <span>Scroll down and choose <strong>Add to Home Screen</strong>.</span>
+    </li>
+    <li class="flex items-center gap-2">
+        <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-primary text-[11px] font-bold text-on-primary">3</span>
+        <span>Tap <strong>Add</strong>.</span>
+    </li>
+</ol>
+<ol data-install-steps="android" hidden class="mt-3 space-y-2 rounded-xl bg-surface-container-high p-3 text-[13px] text-on-surface">
+    <li class="flex items-center gap-2">
+        <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-primary text-[11px] font-bold text-on-primary">1</span>
+        <span>Tap <span class="material-symbols-outlined align-middle text-[18px] text-primary" aria-hidden="true">more_vert</span> <strong>Menu</strong> in your browser's toolbar.</span>
+    </li>
+    <li class="flex items-center gap-2">
+        <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-primary text-[11px] font-bold text-on-primary">2</span>
+        <span>Choose <strong>Install app</strong> or <strong>Add to Home screen</strong>.</span>
+    </li>
+    <li class="flex items-center gap-2">
+        <span class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-primary text-[11px] font-bold text-on-primary">3</span>
+        <span>Tap <strong>Install</strong>.</span>
+    </li>
+</ol>
+
     </section>
 
     

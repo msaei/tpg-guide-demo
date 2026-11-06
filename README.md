@@ -1,6 +1,6 @@
 # Magnolia RV Resort guest guide (static demo)
 
-The five guide tabs (`index.html`, `stay.html`, `nearby.html`, `sponsors.html`, `contact.html`) were exported from LocalGuide on 2026-11-05 with:
+The five guide tabs (`index.html`, `stay.html`, `nearby.html`, `sponsors.html`, `contact.html`) were exported from LocalGuide on 2026-11-06 with:
 
     python backend/manage.py export_static_guide magnolia-rv-resort
 
@@ -10,6 +10,7 @@ and flattened into this folder, with assets under `assets/`. Matt's Search and P
 - **Sponsors** are the 19 Waco businesses the client picked. Their photos are free Unsplash stock photos, not the businesses' own.
 - **Search** covers the Nearby places and all sponsors. Distances and drive times are estimates from map coordinates.
 - **Plan My Day** still uses the original sample places.
+- **Add to Home Screen:** `manifest.webmanifest` and the `icon-*.png` files let guests install the guide from the Home card or the Contact tab link.
 
 This is a snapshot: re-export after content changes and publish the new files.
 
