@@ -25,7 +25,7 @@
 
 
 
-<link rel="stylesheet" href="assets/css/tailwind.css">
+<link rel="stylesheet" href="assets/css/tailwind.css?v=2">
 
 
 
@@ -145,13 +145,27 @@
 
     
     
-    <section data-carousel aria-roledescription="carousel" aria-label="Featured local partners"
+    <section data-carousel data-carousel-keep-first aria-roledescription="carousel" aria-label="Featured local partners"
              class="relative h-44 overflow-hidden rounded-3xl border border-outline-variant/40 shadow-xs">
         <ul data-carousel-track class="scrollbar-none flex h-full snap-x snap-mandatory overflow-x-auto scroll-smooth motion-reduce:scroll-auto">
             
                 <li class="relative h-full w-full shrink-0 snap-center" aria-roledescription="slide" aria-label="1 of 6">
                     <a href="sponsors.html" class="group block h-full">
-                        <img src="assets/pages/images/guide/magnolia/specs.jpg" alt="" class="absolute inset-0 h-full w-full object-cover">
+                        <img src="assets/pages/images/guide/magnolia/lupitas-taqueria.jpg" alt="" class="absolute inset-0 h-full w-full object-cover">
+                        <span class="absolute inset-0 bg-linear-to-t from-black/80 via-black/20 to-transparent"></span>
+                        <span class="absolute inset-x-0 bottom-0 flex items-end justify-between gap-3 p-3 pr-16">
+                            <span class="min-w-0">
+                                <span class="block truncate text-[11px] font-bold tracking-wider text-tertiary-fixed uppercase">Eat</span>
+                                <span class="block truncate font-headline text-base leading-snug font-bold text-white">Lupita&#x27;s Taqueria</span>
+                            </span>
+                            <span class="material-symbols-outlined text-[18px] text-white/80 transition-transform group-hover:translate-x-0.5" aria-hidden="true">arrow_forward</span>
+                        </span>
+                    </a>
+                </li>
+            
+                <li class="relative h-full w-full shrink-0 snap-center" aria-roledescription="slide" aria-label="2 of 6">
+                    <a href="sponsors.html" class="group block h-full">
+                        <img src="assets/pages/images/guide/magnolia/specs.jpg" alt="" class="absolute inset-0 h-full w-full object-cover" loading="lazy">
                         <span class="absolute inset-0 bg-linear-to-t from-black/80 via-black/20 to-transparent"></span>
                         <span class="absolute inset-x-0 bottom-0 flex items-end justify-between gap-3 p-3 pr-16">
                             <span class="min-w-0">
@@ -163,7 +177,7 @@
                     </a>
                 </li>
             
-                <li class="relative h-full w-full shrink-0 snap-center" aria-roledescription="slide" aria-label="2 of 6">
+                <li class="relative h-full w-full shrink-0 snap-center" aria-roledescription="slide" aria-label="3 of 6">
                     <a href="sponsors.html" class="group block h-full">
                         <img src="assets/pages/images/guide/magnolia/el-conquistador.jpg" alt="" class="absolute inset-0 h-full w-full object-cover" loading="lazy">
                         <span class="absolute inset-0 bg-linear-to-t from-black/80 via-black/20 to-transparent"></span>
@@ -177,7 +191,7 @@
                     </a>
                 </li>
             
-                <li class="relative h-full w-full shrink-0 snap-center" aria-roledescription="slide" aria-label="3 of 6">
+                <li class="relative h-full w-full shrink-0 snap-center" aria-roledescription="slide" aria-label="4 of 6">
                     <a href="sponsors.html" class="group block h-full">
                         <img src="assets/pages/images/guide/magnolia/a1-truck-wash.jpg" alt="" class="absolute inset-0 h-full w-full object-cover" loading="lazy">
                         <span class="absolute inset-0 bg-linear-to-t from-black/80 via-black/20 to-transparent"></span>
@@ -185,20 +199,6 @@
                             <span class="min-w-0">
                                 <span class="block truncate text-[11px] font-bold tracking-wider text-tertiary-fixed uppercase">Services</span>
                                 <span class="block truncate font-headline text-base leading-snug font-bold text-white">American A1 Truck Wash</span>
-                            </span>
-                            <span class="material-symbols-outlined text-[18px] text-white/80 transition-transform group-hover:translate-x-0.5" aria-hidden="true">arrow_forward</span>
-                        </span>
-                    </a>
-                </li>
-            
-                <li class="relative h-full w-full shrink-0 snap-center" aria-roledescription="slide" aria-label="4 of 6">
-                    <a href="sponsors.html" class="group block h-full">
-                        <img src="assets/pages/images/guide/magnolia/lupitas-taqueria.jpg" alt="" class="absolute inset-0 h-full w-full object-cover" loading="lazy">
-                        <span class="absolute inset-0 bg-linear-to-t from-black/80 via-black/20 to-transparent"></span>
-                        <span class="absolute inset-x-0 bottom-0 flex items-end justify-between gap-3 p-3 pr-16">
-                            <span class="min-w-0">
-                                <span class="block truncate text-[11px] font-bold tracking-wider text-tertiary-fixed uppercase">Eat</span>
-                                <span class="block truncate font-headline text-base leading-snug font-bold text-white">Lupita&#x27;s Taqueria</span>
                             </span>
                             <span class="material-symbols-outlined text-[18px] text-white/80 transition-transform group-hover:translate-x-0.5" aria-hidden="true">arrow_forward</span>
                         </span>
@@ -232,7 +232,6 @@
                         </span>
                     </a>
                 </li>
-            
         </ul>
 
         <a href="sponsors.html"
@@ -253,16 +252,16 @@
         </div>
         <div class="absolute right-3 bottom-3.5 z-10 hidden items-center gap-1 [[data-carousel-ready]_&]:flex">
             
-                <button type="button" data-carousel-dot="0" aria-label="Show Spec&#x27;s Wines, Spirits &amp; Finer Foods"
+                <button type="button" data-carousel-dot="0" aria-label="Show Lupita&#x27;s Taqueria"
                         class="h-1.5 w-1.5 rounded-full bg-white/50 transition-all duration-300 aria-[current=true]:w-5 aria-[current=true]:bg-primary-fixed-dim"></button>
             
-                <button type="button" data-carousel-dot="1" aria-label="Show El Conquistador"
+                <button type="button" data-carousel-dot="1" aria-label="Show Spec&#x27;s Wines, Spirits &amp; Finer Foods"
                         class="h-1.5 w-1.5 rounded-full bg-white/50 transition-all duration-300 aria-[current=true]:w-5 aria-[current=true]:bg-primary-fixed-dim"></button>
             
-                <button type="button" data-carousel-dot="2" aria-label="Show American A1 Truck Wash"
+                <button type="button" data-carousel-dot="2" aria-label="Show El Conquistador"
                         class="h-1.5 w-1.5 rounded-full bg-white/50 transition-all duration-300 aria-[current=true]:w-5 aria-[current=true]:bg-primary-fixed-dim"></button>
             
-                <button type="button" data-carousel-dot="3" aria-label="Show Lupita&#x27;s Taqueria"
+                <button type="button" data-carousel-dot="3" aria-label="Show American A1 Truck Wash"
                         class="h-1.5 w-1.5 rounded-full bg-white/50 transition-all duration-300 aria-[current=true]:w-5 aria-[current=true]:bg-primary-fixed-dim"></button>
             
                 <button type="button" data-carousel-dot="4" aria-label="Show Broken G BBQ"
@@ -420,6 +419,6 @@
         </div>
     </div>
 
-    <script src="assets/pages/js/guide.js" defer></script>
+    <script src="assets/pages/js/guide.js?v=2" defer></script>
 </body>
 </html>

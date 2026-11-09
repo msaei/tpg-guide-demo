@@ -63,9 +63,11 @@
         const dots = Array.from(carousel.querySelectorAll('[data-carousel-dot]'));
         if (slides.length < 2) return;
 
-        // Shuffle on every visit, so no sponsor always gets the first look
-        for (let i = slides.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
+        // Shuffle on every visit, so no sponsor always gets the first look.
+        // data-carousel-keep-first pins the first slide and shuffles the rest.
+        const start = carousel.hasAttribute('data-carousel-keep-first') ? 1 : 0;
+        for (let i = slides.length - 1; i > start; i--) {
+            const j = start + Math.floor(Math.random() * (i - start + 1));
             [slides[i], slides[j]] = [slides[j], slides[i]];
             [dots[i], dots[j]] = [dots[j], dots[i]];
         }
