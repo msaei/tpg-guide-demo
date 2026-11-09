@@ -42,12 +42,37 @@
         });
     });
 
+    // Dialogs: <a data-dialog-open="id"> opens <dialog id="id"> in the page. An
+    // installed guide has no browser back button, so a new window would strand guests.
+    document.querySelectorAll('[data-dialog-open]').forEach((link) => {
+        const dialog = document.getElementById(link.dataset.dialogOpen);
+        if (!dialog || !dialog.showModal) return;
+        link.addEventListener('click', (event) => {
+            event.preventDefault();
+            dialog.showModal();
+        });
+        dialog.querySelectorAll('[data-dialog-close]').forEach((button) => {
+            button.addEventListener('click', () => dialog.close());
+        });
+    });
+
     // Carousel: a horizontal scroll-snap track that auto-rotates, plus arrows and dots
     document.querySelectorAll('[data-carousel]').forEach((carousel) => {
         const track = carousel.querySelector('[data-carousel-track]');
         const slides = Array.from(track.children);
-        const dots = carousel.querySelectorAll('[data-carousel-dot]');
+        const dots = Array.from(carousel.querySelectorAll('[data-carousel-dot]'));
         if (slides.length < 2) return;
+
+        // Shuffle on every visit, so no sponsor always gets the first look
+        for (let i = slides.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [slides[i], slides[j]] = [slides[j], slides[i]];
+            [dots[i], dots[j]] = [dots[j], dots[i]];
+        }
+        track.append(...slides);
+        dots[0].parentElement.append(...dots);
+        slides.forEach((slide, i) => slide.setAttribute('aria-label', `${i + 1} of ${slides.length}`));
+        dots.forEach((dot, i) => { dot.dataset.carouselDot = i; });
 
         let index = 0;
         const markDot = (active) => {

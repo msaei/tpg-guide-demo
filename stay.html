@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Static export of magnolia-rv-resort, 2026-11-06 -->
+    <!-- Static export of magnolia-rv-resort, 2026-11-09 -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="robots" content="noindex">
@@ -157,13 +157,29 @@
                     <p class="font-headline text-base font-semibold">Park Map</p>
                     <p class="text-xs text-white/80">255 sites • Over 100 covered</p>
                 </div>
-                <a href="assets/pages/images/guide/magnolia/site-map.jpg" target="_blank" rel="noopener"
+                <a href="assets/pages/images/guide/magnolia/site-map.jpg" data-dialog-open="map-dialog"
                    class="flex shrink-0 items-center gap-1.5 rounded-xl border border-outline-variant/30 bg-surface-container-lowest px-3 py-1.5 text-[13px] font-bold text-on-surface shadow-md transition-colors hover:bg-surface-container-low">
                     View Map
                     <span class="material-symbols-outlined text-[16px] text-primary" aria-hidden="true">open_in_full</span>
                 </a>
             </div>
         </div>
+
+        
+        <dialog id="map-dialog" aria-labelledby="map-dialog-title"
+                class="m-0 h-dvh max-h-none w-full max-w-none bg-surface p-0 text-on-surface backdrop:bg-black/60 open:flex open:flex-col">
+            <div class="flex items-center gap-2 border-b border-outline-variant/30 px-2 py-2">
+                <button type="button" data-dialog-close
+                        class="flex items-center gap-1 rounded-full px-3 py-1.5 text-sm font-bold text-primary transition-colors hover:bg-surface-container">
+                    <span class="material-symbols-outlined text-[20px]" aria-hidden="true">arrow_back</span>
+                    Back to guide
+                </button>
+                <h2 id="map-dialog-title" class="min-w-0 truncate font-headline text-base font-semibold">Park Map</h2>
+            </div>
+            <div class="flex flex-1 overflow-auto">
+                <img src="assets/pages/images/guide/magnolia/site-map.jpg" alt="Map of Magnolia RV Resort showing the numbered RV sites, fishing ponds and office" class="m-auto w-full max-w-4xl">
+            </div>
+        </dialog>
     </section>
     
 
